@@ -1,117 +1,98 @@
-# 👋 Hi, I'm Guilherme Martins
+# Guilherme Martins
 
-**Senior DevOps Specialist | Cloud (AWS & Azure) | Kubernetes | CI/CD & IaC**
+Senior Platform Engineer (SRE / DevOps)  
+Cloud (AWS & Azure) | Kubernetes | Infrastructure as Code | CI/CD | Observability
 
 📍 Ribeirão Preto, São Paulo, Brazil  
 📧 guilhermemsferreira@hotmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/srmartins)
+🔗 https://www.linkedin.com/in/srmartins  
 
 ---
 
-## 🚀 About Me
+## 👋 About Me
 
-I am a Senior DevOps Specialist with over **17 years of experience** in software development and cloud infrastructure.  
-My career has been focused on **bridging development and operations**, building **scalable, resilient, and high-performance systems**.
+I am a **Senior Platform Engineer (SRE / DevOps)** with over **17 years of experience** in software development, infrastructure, and operations.
 
-I strongly believe that **technology is a means to solve business problems**, and my mission is to deliver real value through DevOps culture, automation, and reliability.
+I work on **building and operating internal platforms**, infrastructure automation, Kubernetes, CI/CD, and observability, always with an **SRE mindset** focused on **reliability, scalability, and resilience**.
 
----
-
-## 🛠️ Core Expertise
-
-### ☁️ Cloud & Infrastructure as Code (IaC)
-- AWS & Azure architecture and automation
-- Terraform for consistent, secure, and reproducible environments
-- Infrastructure scalability, resilience, and cost optimization
-
-### 🔄 CI/CD & Automation
-- Bitbucket Pipelines, Jenkins, Bitrise
-- End-to-end automation of build, test, and deployment pipelines
-- Faster delivery cycles with reduced risk and manual intervention
-
-### 📦 Containers & Orchestration
-- Docker & Kubernetes (EKS / KOPS)
-- Microservices-based architectures
-- High availability and production-grade scalability
-
-### 📊 Observability & Reliability
-- Datadog, Grafana, Prometheus, ELK / EFK
-- Proactive monitoring, logging, and incident response
-- Strong focus on system health and reliability (SRE mindset)
+I strongly believe that **technology only makes sense when it solves real business problems**, and my focus is on reducing operational friction, increasing developer productivity, and keeping production environments stable and secure.
 
 ---
 
-## 💼 Professional Experience
+## 🧠 What I do in practice
 
-### 🏢 Conexia Educação  
-**DevOps Specialist Engineer**  
-*Jan 2025 – Present*
-
-- Daily work with Docker and Kubernetes (KOPS) in production environments
-- Design and maintenance of CI/CD pipelines from scratch
-- Cloud infrastructure management on AWS and Azure using Terraform
-- Implementation of full observability stacks (Datadog, Grafana, Zabbix, ELK)
-- Automation with Shell scripts to optimize operations and deployments
-
-**Senior DevOps Engineer**  
-*Jun 2019 – Jul 2025*
-
-- Designed and maintained AWS infrastructure for .NET Core and Node.js microservices
-- Container orchestration with Docker and Kubernetes
-- CI/CD automation with Bitbucket Pipelines and Bitrise
-- Monitoring and logging with Graylog, Grafana, Zabbix, and ELK
+- Build and evolve **internal developer platforms (IDP)**
+- Automate infrastructure using **Terraform (IaC)**
+- Operate **production-grade Kubernetes environments**
+- Design and standardize **CI/CD pipelines**
+- Implement **observability and reliability practices (SRE)**
+- Reduce operational toil through automation
+- Support development teams with **self-service platforms**
 
 ---
 
-### 🏢 Beblue  
-**DevOps Engineer**  
-*Aug 2017 – Feb 2019*
+## 🛠️ Stack & Tools
 
-- AWS infrastructure modernization (EC2, RDS, SQL Server, S3, SQS)
-- Docker and Kubernetes adoption
-- Performance monitoring with Datadog
-- Automation solutions developed in Go
+**Cloud**  
+AWS · Azure  
 
----
+**Infrastructure as Code**  
+Terraform  
 
-## 🎓 Education
+**Containers & Orchestration**  
+Docker · Kubernetes (EKS / KOPS)  
 
-**Bachelor’s Degree in Information Systems**  
-Faculdade São Luís (2012 – 2016)
+**CI/CD**  
+Bitbucket Pipelines · Jenkins · Bitrise  
 
----
+**Observability & Reliability**  
+Datadog · Grafana · Prometheus · ELK / EFK · Zabbix  
 
-## 📜 Certifications
+**Scripting & Languages**  
+Shell Script · Go · .NET  
 
-- Linux Essentials – 4Linux  
-- Linux Network Servers – 4Linux  
-- Linux System Administration – 4Linux  
-- Scrum Foundations  
-- Code of Ethical Conduct Policy  
+**Infrastructure & Web**  
+Linux · Nginx · HAProxy  
 
 ---
 
-## 🧰 Tech Stack
+## 💼 Experience
 
-**Cloud:** AWS, Azure  
-**IaC:** Terraform  
-**Containers:** Docker, Kubernetes  
-**CI/CD:** Jenkins, Bitbucket Pipelines, Bitrise  
-**Observability:** Datadog, Grafana, Prometheus, ELK  
-**Languages & Scripting:** Shell, Go, .NET  
+### Conexia Educação  
+**Senior Platform Engineer (SRE / DevOps)**  
+*2019 – Present*
+
+- Operate critical workloads on Kubernetes in production
+- Automate AWS and Azure infrastructure using Terraform
+- Standardize and maintain CI/CD pipelines
+- Implement and operate observability stacks
+- Actively work on reliability, incident response, and capacity planning
 
 ---
 
-## 📈 What I'm Looking For
+## 🎯 Areas of Interest
 
-I'm always interested in challenges related to:
-- DevOps & SRE
 - Platform Engineering
+- Site Reliability Engineering (SRE)
 - Cloud Architecture
-- Automation & Reliability Engineering
-
-If you’d like to collaborate or discuss opportunities, feel free to reach out.
+- Kubernetes & Cloud-Native
+- Automation and Reliability
+- Developer Experience (DevEx)
 
 ---
 
-⭐️ *“Build systems that scale, automate everything, and keep reliability first.”*
+## 🤝 Let’s connect
+
+If you’d like to talk about:
+- Platform Engineering
+- SRE
+- Kubernetes
+- Cloud
+- Automation
+
+feel free to reach out on **LinkedIn** 👇  
+🔗 https://www.linkedin.com/in/srmartins
+
+---
+
+> _"Automate everything, design for failure, and treat reliability as a feature."_
