@@ -1,98 +1,69 @@
-# Guilherme Martins
+# Profile — revisão profissional de Guilherme Martins
 
-Senior Platform Engineer (SRE / DevOps)  
-Cloud (AWS & Azure) | Kubernetes | Infrastructure as Code | CI/CD | Observability
+Base de trabalho para consolidar experiência, evidências e decisões de posicionamento profissional e, depois, preparar currículo, LinkedIn, entrevistas e eventual portfólio técnico.
 
-📍 Ribeirão Preto, São Paulo, Brazil  
-📧 guilhermemsferreira@hotmail.com  
-🔗 https://www.linkedin.com/in/srmartins  
+**Posicionamento definido:** Senior Cloud Platform Engineer. O cargo histórico atual no CV permanece Senior Platform Engineer (SRE / DevOps).
 
----
+**Atualizado em 15/10/2026. Progresso: 6/10 blocos concluídos — 60%.** Próximo: **Networking / Multi-account**. A organização dos documentos não encerra blocos adicionais.
 
-## 👋 About Me
+<a id="fonte-da-verdade"></a>
 
-I am a **Senior Platform Engineer (SRE / DevOps)** with over **17 years of experience** in software development, infrastructure, and operations.
+## Fonte da verdade
 
-I work on **building and operating internal platforms**, infrastructure automation, Kubernetes, CI/CD, and observability, always with an **SRE mindset** focused on **reliability, scalability, and resilience**.
+Este repositório, em `/home/guilherme/repositorios/pessoal/guihmartins`, é a fonte da verdade do Profile: conteúdo, revisões, validações, pendências e decisões passam a ser mantidos aqui. Currículo, LinkedIn e outros materiais serão derivados desta base.
 
-I strongly believe that **technology only makes sense when it solves real business problems**, and my focus is on reducing operational friction, increasing developer productivity, and keeping production environments stable and secure.
+As alterações são versionadas na branch **`develop`**. A migração substitui o README de apresentação anterior pelo índice deste conjunto. Conversas e arquivos antigos permanecem como referências de origem; novas confirmações precisam ser incorporadas e versionadas neste repositório.
 
----
+<a id="navegacao"></a>
 
-## 🧠 What I do in practice
+## Navegação
 
-- Build and evolve **internal developer platforms (IDP)**
-- Automate infrastructure using **Terraform (IaC)**
-- Operate **production-grade Kubernetes environments**
-- Design and standardize **CI/CD pipelines**
-- Implement **observability and reliability practices (SRE)**
-- Reduce operational toil through automation
-- Support development teams with **self-service platforms**
+| Arquivo | Conteúdo e função |
+|---|---|
+| [ROADMAP.md](ROADMAP.md) | Dez blocos, status reconciliado, respostas já registradas, lacunas e próximo passo |
+| [PERFIL-CONSOLIDADO.md](PERFIL-CONSOLIDADO.md) | Trajetória, competências, arquitetura, liderança, preferências, formação, resultados e limites |
+| [PROJETOS-TECNICOS.md](PROJETOS-TECNICOS.md) | Doze registros de casos/iniciativas e práticas recorrentes, com papel, decisões, resultados e limites |
+| [IDEIAS-E-PENDENCIAS.md](IDEIAS-E-PENDENCIAS.md) | Portfólio GitHub, iniciativa de IA, decisões abertas e conteúdo a aprofundar |
+| [HISTORICO.md](HISTORICO.md) | Fontes, sessões, correções de divergências e regras para continuar sem repetir perguntas |
 
----
+Este README é o sexto documento e a entrada de navegação. Os seis documentos Markdown são mantidos diretamente neste repositório; o ZIP é apenas a origem da importação.
 
-## 🛠️ Stack & Tools
+<a id="estado-da-revisao"></a>
 
-**Cloud**  
-AWS · Azure  
+## Estado da revisão
 
-**Infrastructure as Code**  
-Terraform  
+| Estado | Blocos |
+|---|---|
+| Concluídos | 1. AWS; 2. Kubernetes; 3. CI/CD; 4. Observabilidade/SRE/Incidentes; 5. Segurança/IAM; 7. Bancos/Backup/DR |
+| Pendentes | 6. Networking/Multi-account; 8. Liderança/Arquitetura/Documentação; 9. Ferramentas/IA/Automação; 10. Experiências anteriores/Impacto/Posicionamento |
+| Em andamento | Nenhum formalmente, após o fechamento de Bancos em 15/10 |
 
-**Containers & Orchestration**  
-Docker · Kubernetes (EKS / KOPS)  
+<a id="o-que-esta-preservado"></a>
 
-**CI/CD**  
-Bitbucket Pipelines · Jenkins · Bitrise  
+## O que está preservado
 
-**Observability & Reliability**  
-Datadog · Grafana · Prometheus · ELK / EFK · Zabbix  
+- Conteúdo reunido de cinco documentos de experiência profissional, com comparação das versões de setembro e outubro.
+- Fechamentos e limites mais recentes de Bancos, detalhes aprofundados de Kubernetes/CI/CD/Segurança e governança de arquitetura de 13/10.
+- Métricas autorrelatadas com escopo: deploys, preparação de infraestrutura, alcance dos padrões, réplica de leitura e upgrade de banco.
+- Cargo histórico separado de posicionamento de mercado; Staff/Principal permanecem sujeitos a avaliação.
 
-**Scripting & Languages**  
-Shell Script · Go · .NET  
+Este material ainda é a base detalhada, não o currículo final. A consolidação abrange o que está preservado nos documentos encontrados; não representa recuperação integral de todas as conversas de voz. As fontes e a ideia GitHub vinda do contexto disponível estão identificadas no Histórico.
 
-**Infrastructure & Web**  
-Linux · Nginx · HAProxy  
+<a id="como-continuar"></a>
 
----
+## Como continuar
 
-## 💼 Experience
+Consultar o Roadmap e o conteúdo existente antes de perguntar. Retomar apenas as lacunas de Networking / Multi-account. Atualizar o arquivo temático, registrar decisões no Histórico e ajustar o status somente após fechamento do bloco.
 
-### Conexia Educação  
-**Senior Platform Engineer (SRE / DevOps)**  
-*2019 – Present*
+<a id="fluxo-de-atualizacao"></a>
 
-- Operate critical workloads on Kubernetes in production
-- Automate AWS and Azure infrastructure using Terraform
-- Standardize and maintain CI/CD pipelines
-- Implement and operate observability stacks
-- Actively work on reliability, incident response, and capacity planning
+## Fluxo de atualização
 
----
+1. Consultar o [Roadmap](ROADMAP.md) e o conteúdo existente antes de retomar um assunto.
+2. Incorporar informações no arquivo temático, preservando os limites do relato.
+3. Manter dúvidas, divergências e hipóteses em [Ideias e pendências](IDEIAS-E-PENDENCIAS.md) até a confirmação.
+4. Registrar no [Histórico](HISTORICO.md) a data, o assunto, a origem da confirmação e os documentos afetados por cada validação ou decisão.
+5. Atualizar o progresso somente quando houver confirmação de avanço ou fechamento do bloco.
+6. Conferir a navegação e fazer o commit na `develop`. Enviar ao remoto quando solicitado.
 
-## 🎯 Areas of Interest
-
-- Platform Engineering
-- Site Reliability Engineering (SRE)
-- Cloud Architecture
-- Kubernetes & Cloud-Native
-- Automation and Reliability
-- Developer Experience (DevEx)
-
----
-
-## 🤝 Let’s connect
-
-If you’d like to talk about:
-- Platform Engineering
-- SRE
-- Kubernetes
-- Cloud
-- Automation
-
-feel free to reach out on **LinkedIn** 👇  
-🔗 https://www.linkedin.com/in/srmartins
-
----
-
-> _"Automate everything, design for failure, and treat reliability as a feature."_
+Importar o conteúdo não equivale a validar novamente os relatos. Não inferir cargos, datas, métricas, senioridade ou entregas. As [instruções para agentes](AGENTS.md) preservam este fluxo nas próximas sessões.
