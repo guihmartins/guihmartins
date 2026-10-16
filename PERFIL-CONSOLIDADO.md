@@ -1,30 +1,99 @@
-# Perfil profissional consolidado — Guilherme Martins
+[Início](README.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Revisão](ROADMAP.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
 
-[Início](README.md) · [Roadmap](ROADMAP.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
+---
 
-Atualizado em **15/10/2026**. Base detalhada para currículo, LinkedIn e entrevistas; ainda não é o currículo final. Reúne os relatos preservados em cinco documentos, conciliando as atualizações por assunto. As experiências e métricas são autorrelatadas; não houve auditoria externa.
+<sub>01 / PERFIL · GUILHERME MARTINS</sub>
 
-**Posicionamento definido:** Senior Cloud Platform Engineer. O título histórico do cargo atual permanece **Senior Platform Engineer (SRE / DevOps)**. Staff e Principal são possibilidades a avaliar, sem atribuição automática de nível.
+# Engenharia de software, cloud e plataforma
 
-**Revisão:** 6/10 blocos concluídos — 60%. Próximo: Networking / Multi-account. O controle oficial está em [ROADMAP.md](ROADMAP.md).
+**Guilherme Martins · Senior Cloud Platform Engineer**
 
+Minha carreira começou em infraestrutura e suporte, passou pelo desenvolvimento de software e evoluiu para DevOps e engenharia de plataforma. Essa combinação sustenta uma visão que vai da aplicação à operação: arquitetura, entrega, observabilidade e diagnóstico.
+
+Hoje atuo na **Conexia Educação**, como **Senior Platform Engineer (SRE / DevOps)**. Sou referência técnica para diferentes times, com foco em padrões reutilizáveis, automação e decisões arquiteturais adequadas ao contexto do produto.
+
+[Trajetória](#trajetoria) · [Competências](#competencias) · [Atuação](#arquitetura-e-influencia) · [Resultados](#resultados-e-evidencias) · [Base detalhada](#base-detalhada)
+
+<a id="trajetoria"></a>
+
+## Uma trajetória entre software e infraestrutura
+
+| Período registrado | Empresa | Atuação |
+| :--- | :--- | :--- |
+| **jan/2025–atual** | **Conexia Educação** | Senior Platform Engineer (SRE / DevOps) |
+| fev/2020–dez/2024 | Conexia Educação | Senior DevOps Engineer |
+| jun/2019–jan/2020 | Conexia Educação | DevOps Engineer |
+| jan/2019–jun/2019 | FH_ | DevOps Engineer |
+| ago/2017–fev/2019 | Beblue | DevOps Engineer |
+| mar/2017–ago/2017 | Beblue | Software Engineer |
+| mar/2013–mar/2017 | JET e-business | Software and Web Developer |
+| out/2011–mar/2013 | SiplanControl-M | Software and Web Developer |
+| dez/2010–dez/2011 | LMS | Software Developer |
+| ago/2009–dez/2010 | Artoni | Infrastructure Coordinator and Technical Support |
+
+<sub>Datas preservadas do CV. Sobreposições em FH_/Beblue e LMS/SPCM aguardam confirmação; “atual” refere-se ao registro disponível em 15/10/2026.</sub>
+
+<a id="competencias"></a>
+
+## Competências aplicadas
+
+| Frente | Experiência consolidada |
+| :--- | :--- |
+| **Software** | C#/.NET e Node.js como bases principais; JavaScript/TypeScript, Go, Python e Shell conforme a necessidade. |
+| **Cloud** | AWS: computação, bancos, mensageria, armazenamento, DNS, distribuição, IAM e configuração. Experiência histórica com Azure. |
+| **Plataforma** | Docker, Kubernetes, EKS/kOps, padrões de implantação, capacidade, upgrades e autoscaling. |
+| **Entrega e DevEx** | Bitbucket Pipelines, convenções de branches, PRs, Code Review, shared pipelines e capacitação dos times. Experiência também com GitHub Actions, Jenkins e Bitrise. |
+| **Observabilidade e operação** | Datadog e OpenTelemetry, correlação de requisições, logs, métricas, traces, diagnóstico e RCA. |
+| **Infraestrutura como código** | Terraform, Terragrunt e CloudFormation em experiências anteriores, incluindo ambientes do zero. Uso atual condicionado ao contexto da empresa. |
+
+<a id="arquitetura-e-influencia"></a>
+
+## Da decisão à adoção
+
+Meu trabalho combina **entender o problema, avaliar alternativas, construir uma referência e apoiar sua adoção**. Participo de kickoffs, reviso propostas, documento decisões e oriento desenvolvedores. Em um período relatado, os padrões alcançaram aproximadamente **4 times e 30 desenvolvedores**.
+
+Na revisão de arquitetura, custo e retorno econômico têm peso central, acompanhados por segurança, performance e observabilidade. Posso solicitar mudanças ou devolver uma proposta ao planejamento; divergências são discutidas com a gestão, que mantém a decisão hierárquica final.
+
+A preferência de carreira é continuar como **IC técnico transversal**, trabalhando com arquitetura, plataforma e ferramentas. A liderança acontece por influência técnica, documentação e orientação entre times.
+
+> Construir mecanismos que evitem a recorrência dos problemas é uma das principais motivações dessa atuação.
+
+## Formação e desenvolvimento
+
+**Bacharelado em Sistemas de Informação · Faculdade São Luís · 2012–2016**<br>
+Formação complementar em Linux pela 4Linux e Scrum Foundations.
+
+Inglês: boa leitura e conversação ainda limitada no relato registrado. As próprias histórias técnicas podem apoiar a preparação para entrevistas.
+
+<a id="resultados-e-evidencias"></a>
+
+## Resultados e evidências
+
+| Evidência relatada | Escopo e limite | Caso |
+|---|---|---|
+| Deploys a cada ~3 meses passaram a semanais/quinzenais | Frequência aproximada; sem série histórica de DORA | P01 |
+| Preparação de infraestrutura de ~4–5 para ~1–2 dias, podendo chegar a 1 dia | Não mede o desenvolvimento completo da aplicação | P02 |
+| Padrões alcançaram ~4 times e ~30 desenvolvedores | Alcance no período citado; não é quadro atual confirmado | P01–P04 / F1 §21 |
+| Redução de mais de 50% na carga do banco principal | Resultado conjunto de redimensionamento e separação de leitura/escrita; unidade e janela ausentes | P09 |
+| Quase 50% de redução no tempo de resposta das aplicações | Mesmo conjunto de mudanças; sem latência absoluta ou percentil informado | P09 |
+| Upgrade de banco >100 GB concluído sem problemas, com parada de ~2 horas | Engine e versões não confirmados; sem afirmação de zero downtime | P11 |
+| Comparação automatizada de dezenas ou 100+ parâmetros | Quantidade contextual, sem duração economizada medida | P07 |
+
+As métricas são evidências autorrelatadas preservadas nas fontes, sem inferir causalidade isolada, precisão estatística ou economia financeira. Os detalhes e limites estão em [Projetos técnicos](PROJETOS-TECNICOS.md).
+
+<a id="base-detalhada"></a>
 <a id="navegacao"></a>
 
-## Navegação
+## Base detalhada de experiência
 
-- [Histórico profissional](#historico-profissional)
-- [Base de desenvolvimento](#base-de-desenvolvimento)
-- [AWS — revisão aprofundada](#aws--revisao-aprofundada)
-- [Kubernetes — planejamento e operação](#kubernetes--planejamento-e-operacao)
-- [CI/CD — aprofundamento](#cicd--aprofundamento)
-- [Segurança — aprofundamento](#seguranca--aprofundamento)
-- [Bancos — atuação e diagnóstico](#bancos--atuacao-e-diagnostico)
-- [Resultados e evidências](#resultados-e-evidencias)
-- [Projetos e casos completos](PROJETOS-TECNICOS.md)
+Expanda um assunto para consultar os relatos completos, as decisões e suas fontes. Esta base preserva o material consolidado para currículo, LinkedIn e entrevistas. Os blocos pendentes continuam indicados no [Roadmap](ROADMAP.md).
+
+### Trajetória e desenvolvimento
 
 <a id="perfil-geral"></a>
 
-## Perfil geral
+<details>
+<summary><strong>Perfil geral</strong></summary>
 
 - Bacharel em Sistemas de Informação.
 - Aproximadamente **18 anos de experiência profissional em tecnologia**.
@@ -47,9 +116,12 @@ Atualizado em **15/10/2026**. Base detalhada para currículo, LinkedIn e entrevi
 
 *Origem: F1 §1; F2 §1 para distinguir posicionamento de cargo; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="historico-profissional"></a>
 
-## Histórico profissional
+<details>
+<summary><strong>Histórico profissional</strong></summary>
 
 <a id="conexia-educacao--ribeirao-preto"></a>
 
@@ -192,9 +264,12 @@ ago/2009 – dez/2010
 
 *Origem: F1 §23; cargos e datas preservados do CV registrado; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="base-de-desenvolvimento"></a>
 
-## Base de desenvolvimento
+<details>
+<summary><strong>Base de desenvolvimento</strong></summary>
 
 <a id="c--net"></a>
 
@@ -260,9 +335,14 @@ JavaScript/TypeScript também constam na base inicial. As durações de aproxima
 
 *Origem: F1 §§1 e 5; F5 §2; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+### Cloud e plataforma
+
 <a id="cloud--contexto"></a>
 
-## Cloud — contexto
+<details>
+<summary><strong>Cloud — contexto</strong></summary>
 
 <a id="aws"></a>
 
@@ -304,9 +384,12 @@ Possui experiência com Azure e contato histórico com Windows Azure.
 
 *Origem: F1 §6; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="infrastructure-as-code"></a>
 
-## Infrastructure as Code
+<details>
+<summary><strong>Infrastructure as Code</strong></summary>
 
 Experiência anterior com:
 
@@ -320,9 +403,12 @@ Há forte interesse em trabalhar mais intensamente com Infrastructure as Code.
 
 *Origem: F1 §7; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="aws--revisao-aprofundada"></a>
 
-## AWS — revisão aprofundada
+<details>
+<summary><strong>AWS — revisão aprofundada</strong></summary>
 
 > Bloco revisado em entrevista de levantamento. Os pontos abaixo registram experiencia efetivamente relatada e devem ser usados como evidencia para CV, LinkedIn e entrevistas.
 
@@ -420,9 +506,12 @@ Há forte interesse em trabalhar mais intensamente com Infrastructure as Code.
 
 *Origem: F1 §31, revisão de 02/10/2026; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="kubernetes--planejamento-e-operacao"></a>
 
-## Kubernetes — planejamento e operação
+<details>
+<summary><strong>Kubernetes — planejamento e operação</strong></summary>
 
 > Conteúdo inicial consolidado em 02/10/2026. Fechamento da revisão registrado na conversa de 05/10/2026, após aprofundamento de Operators, Services/Deployments, HPA e Cluster Autoscaler.
 
@@ -538,9 +627,12 @@ O caso real do SSO está preservado em [Projetos técnicos](PROJETOS-TECNICOS.md
 
 *Origem: F1 §34; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="kubernetes--upgrades-tuning-e-autoscaling"></a>
 
-## Kubernetes — upgrades, tuning e autoscaling
+<details>
+<summary><strong>Kubernetes — upgrades, tuning e autoscaling</strong></summary>
 
 <a id="upgrade-de-clusters"></a>
 
@@ -596,9 +688,14 @@ O caso real do SSO está preservado em [Projetos técnicos](PROJETOS-TECNICOS.md
 
 *Origem: F2 §35, fechamento de 05/10/2026; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+### Entrega, observabilidade e confiabilidade
+
 <a id="cicd--ferramentas-e-atuacao"></a>
 
-## CI/CD — ferramentas e atuação
+<details>
+<summary><strong>CI/CD — ferramentas e atuação</strong></summary>
 
 Experiência com:
 
@@ -621,9 +718,12 @@ Também auxilia desenvolvedores na criação de Dockerfiles e na estrutura neces
 
 *Origem: F1 §9; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="cicd--aprofundamento"></a>
 
-## CI/CD — aprofundamento
+<details>
+<summary><strong>CI/CD — aprofundamento</strong></summary>
 
 <a id="cenario-inicial-e-transformacao"></a>
 
@@ -691,9 +791,12 @@ O caso de transformação e seus resultados estão em [Projetos técnicos](PROJE
 
 *Origem: F1 §§31 e 35; F2 §36; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="observabilidade-e-telemetria"></a>
 
-## Observabilidade e telemetria
+<details>
+<summary><strong>Observabilidade e telemetria</strong></summary>
 
 Experiência com:
 
@@ -724,9 +827,12 @@ A observabilidade principal está em Datadog + OpenTelemetry. CloudWatch é usad
 
 *Origem: F1 §§13–15 e 31; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="incidentes--papel-e-metodo"></a>
 
-## Incidentes — papel e método
+<details>
+<summary><strong>Incidentes — papel e método</strong></summary>
 
 Embora não seja a área de trabalho preferida, possui forte capacidade de resposta a incidentes.
 
@@ -774,9 +880,12 @@ Sua experiência prévia como desenvolvedor frequentemente reduz significativame
 
 *Origem: F1 §§16 e 32; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="seguranca--aprofundamento"></a>
 
-## Segurança — aprofundamento
+<details>
+<summary><strong>Segurança — aprofundamento</strong></summary>
 
 <a id="modelagem-de-acesso"></a>
 
@@ -817,9 +926,12 @@ Sua experiência prévia como desenvolvedor frequentemente reduz significativame
 
 *Origem: F2 §37; F1 §36; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="bancos--atuacao-e-diagnostico"></a>
 
-## Bancos — atuação e diagnóstico
+<details>
+<summary><strong>Bancos — atuação e diagnóstico</strong></summary>
 
 <a id="escopo-e-limites"></a>
 
@@ -860,9 +972,14 @@ Os casos de réplica de leitura, recuperação seletiva e upgrade estão em [Pro
 
 *Origem: F1 §38, atualização de 15/10/2026; F2 §38 apenas como registro histórico; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+### Arquitetura, influência e ferramentas
+
 <a id="modo-de-atuacao-e-arquitetura"></a>
 
-## Modo de atuação e arquitetura
+<details>
+<summary><strong>Modo de atuação e arquitetura</strong></summary>
 
 Guilherme não atua apenas executando demandas de infraestrutura ou operação.
 
@@ -928,9 +1045,12 @@ Essa visão ponta a ponta é utilizada principalmente em troubleshooting e decis
 
 *Origem: F1 §§2 e 4; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="lideranca-tecnica-e-alcance"></a>
 
-## Liderança técnica e alcance
+<details>
+<summary><strong>Liderança técnica e alcance</strong></summary>
 
 Não possui gestão formal de pessoas.
 
@@ -969,9 +1089,12 @@ Entre os padrões citados:
 
 *Origem: F1 §§3 e 21; alcance de 4 times e ~30 desenvolvedores refere-se ao período relatado; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="governanca-de-arquitetura"></a>
 
-## Governança de arquitetura
+<details>
+<summary><strong>Governança de arquitetura</strong></summary>
 
 <a id="evolucao-da-responsabilidade-arquitetural"></a>
 
@@ -1006,9 +1129,12 @@ As referências a LGPD, Marco Civil da Internet e ECA Digital registram preocupa
 
 *Origem: F2 §39 e F3 atualização de 13/10/2026; F1 §37; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="custos-e-otimizacao"></a>
 
-## Custos e otimização
+<details>
+<summary><strong>Custos e otimização</strong></summary>
 
 Participa da análise de custos e utilização de infraestrutura.
 
@@ -1029,9 +1155,12 @@ A responsabilidade principal de FinOps permanece com o Head. Não há valor de e
 
 *Origem: F1 §§22 e 31; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="ferramentas-internas-e-iniciativa-de-ia"></a>
 
-## Ferramentas internas e iniciativa de IA
+<details>
+<summary><strong>Ferramentas internas e iniciativa de IA</strong></summary>
 
 - **ARO — AWS Resource Operation:** coleta configurações AWS, apresenta plano para revisão e promove recursos entre ambientes/contas.
 - **User Permissions:** portal para usuários, logins, roles e permissões do SQL Server.
@@ -1040,9 +1169,14 @@ A responsabilidade principal de FinOps permanece com o Head. Não há valor de e
 
 Os três primeiros têm casos em [PROJETOS-TECNICOS.md](PROJETOS-TECNICOS.md). O escopo de IA está em [IDEIAS-E-PENDENCIAS.md](IDEIAS-E-PENDENCIAS.md). O bloco 9 permanece pendente de aprofundamento. Origem: F1 §§17–20.
 
+</details>
+
+### Formação e direção de carreira
+
 <a id="formacao"></a>
 
-## Formação
+<details>
+<summary><strong>Formação</strong></summary>
 
 **Bacharelado em Sistemas de Informação**  
 Faculdade São Luís  
@@ -1057,9 +1191,12 @@ Formação complementar registrada:
 
 *Origem: F1 §24; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="ingles"></a>
 
-## Inglês
+<details>
+<summary><strong>Inglês</strong></summary>
 
 Situação atual relatada:
 
@@ -1075,9 +1212,12 @@ Não foi considerado impossível.
 
 *Origem: F1 §25; indicação antiga de retomar por inglês substituída pelo roadmap atual; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
 <a id="preferencias-de-carreira"></a>
 
-## Preferências de carreira
+<details>
+<summary><strong>Preferências de carreira</strong></summary>
 
 Não demonstra interesse atual em migrar para gestão formal de pessoas.
 
@@ -1100,21 +1240,7 @@ Também relatou:
 
 *Origem: F1 §26; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
-<a id="resultados-e-evidencias"></a>
-
-## Resultados e evidências
-
-| Evidência relatada | Escopo e limite | Caso |
-|---|---|---|
-| Deploys a cada ~3 meses passaram a semanais/quinzenais | Frequência aproximada; sem série histórica de DORA | P01 |
-| Preparação de infraestrutura de ~4–5 para ~1–2 dias, podendo chegar a 1 dia | Não mede o desenvolvimento completo da aplicação | P02 |
-| Padrões alcançaram ~4 times e ~30 desenvolvedores | Alcance no período citado; não é quadro atual confirmado | P01–P04 / F1 §21 |
-| Redução de mais de 50% na carga do banco principal | Resultado conjunto de redimensionamento e separação de leitura/escrita; unidade e janela ausentes | P09 |
-| Quase 50% de redução no tempo de resposta das aplicações | Mesmo conjunto de mudanças; sem latência absoluta ou percentil informado | P09 |
-| Upgrade de banco >100 GB concluído sem problemas, com parada de ~2 horas | Engine e versões não confirmados; sem afirmação de zero downtime | P11 |
-| Comparação automatizada de dezenas ou 100+ parâmetros | Quantidade contextual, sem duração economizada medida | P07 |
-
-As métricas são evidências autorrelatadas preservadas nas fontes, sem inferir causalidade isolada, precisão estatística ou economia financeira. Os detalhes e limites estão em [Projetos técnicos](PROJETOS-TECNICOS.md).
+</details>
 
 <a id="lacunas-e-continuidade"></a>
 
@@ -1125,3 +1251,10 @@ As métricas são evidências autorrelatadas preservadas nas fontes, sem inferir
 - Aprofundar Azure e experiências anteriores sem preencher competências ausentes por inferência.
 - Registrar métricas adicionais somente quando disponíveis: escala de ambientes, tráfego, custos, MTTR, adoção e resultados das ferramentas.
 - Existem sobreposições entre datas de empregos no CV e durações aproximadas que não devem ser “corrigidas” sem confirmação. Ver [Histórico](HISTORICO.md).
+
+
+---
+
+[← Início](README.md) · [Início](README.md) · [Projetos técnicos →](PROJETOS-TECNICOS.md)
+
+<sub>Base profissional · Atualizada em 15/10/2026 · Branch develop</sub>

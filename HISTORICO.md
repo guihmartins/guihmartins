@@ -1,8 +1,30 @@
-# Histórico e continuidade
+[Início](README.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Revisão](ROADMAP.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
 
-[Início](README.md) · [Roadmap](ROADMAP.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
+---
 
-Consolidação documental em **15/10/2026**. Registra fontes, decisões, divergências resolvidas e próximo ponto da revisão. Datas de entrevistas e de arquivos têm funções diferentes: um nome com “2026-10-05” pode conter atualização de 13/10.
+<sub>05 / HISTÓRICO · GUILHERME MARTINS</sub>
+
+# A memória das decisões
+
+Fontes, revisões e decisões que sustentam o perfil. Cada nova confirmação atualiza o documento temático e deixa aqui um registro de sua origem.
+
+[Última revisão](#revisao-editorial-2026-10-15) · [Linha do tempo](#registro-de-sessoes) · [Decisões](#decisoes-consolidadas) · [Fontes](#fontes-de-referencia)
+
+<a id="revisao-editorial-2026-10-15"></a>
+
+## 15/10/2026 · Apresentação e organização editorial
+
+**Solicitação:** melhorar a apresentação dos seis Markdown e preenchê-los com o conteúdo já refinado.
+
+- README reescrito como entrada profissional, com capa, apresentação, resultados contextualizados e navegação para os cinco documentos.
+- Perfil com síntese de trajetória, competências e forma de atuação; relatos completos mantidos em seções expansíveis.
+- Os 12 registros técnicos ganharam resumos de problema, atuação e resultado; detalhes, limites e fontes foram preservados.
+- Roadmap organizado por estado e próximo assunto; pendências e histórico receberam navegação e hierarquia de leitura.
+- Corrigida a nota antiga de pendências que tratava toda publicação como não autorizada: o usuário já solicitou o versionamento e a disponibilização da branch. A seleção de conteúdo para a apresentação pública final continua aberta.
+
+**Base utilizada:** conteúdo consolidado dos seis documentos em `6a3aa73`, originado do ZIP importado e das fontes F1–F5. As novas sínteses foram redigidas a partir desse material; esta edição não recupera conversas adicionais nem valida novamente experiências ou métricas.
+
+**Documentos afetados:** os seis Markdown e a capa local em `assets/profile-cover.svg`. **Estado da revisão:** mantidos **6/10 — 60%**, com Networking / Multi-account como próximo bloco. Não houve mudança de cargo, datas ou senioridade.
 
 <a id="registro-de-sessoes"></a>
 
@@ -36,7 +58,8 @@ As datas acima registram o que as fontes indicam, sem inferir datas de execuçã
 
 <a id="reconciliacao-entre-versoes"></a>
 
-## Reconciliação entre versões
+<details>
+<summary><strong>Reconciliação entre versões</strong></summary>
 
 | Divergência | Tratamento adotado | Evidência |
 |---|---|---|
@@ -53,9 +76,12 @@ As datas acima registram o que as fontes indicam, sem inferir datas de execuçã
 | “CQRS” no caso da réplica | Registrado o termo relatado e a evidência de separação de acessos; sem presumir CQRS completo/event sourcing | F1 §38 |
 | Upgrade descrito como blue-green | Preservada a analogia, sem atribuir AWS RDS Blue/Green Deployments | F1 §38 |
 
+</details>
+
 <a id="conteudo-validado-documentalmente"></a>
 
-## Conteúdo validado documentalmente
+<details>
+<summary><strong>Conteúdo validado documentalmente</strong></summary>
 
 “Validado”, neste conjunto, significa conferido contra os registros localizados. As métricas e experiências continuam sendo relatos do usuário, sem comprovação independente.
 
@@ -65,9 +91,12 @@ As datas acima registram o que as fontes indicam, sem inferir datas de execuçã
 - Doze registros de projetos/iniciativas e práticas recorrentes organizados; a numeração do catálogo não implica doze entregas independentes ou episódios únicos.
 - Resultados numéricos preservados como aproximações ou percentuais relatados, com escopo e limites.
 
+</details>
+
 <a id="questoes-abertas-e-limites"></a>
 
-## Questões abertas e limites
+<details>
+<summary><strong>Questões abertas e limites</strong></summary>
 
 - Existem sobreposições de datas registradas em FH_/Beblue e LMS/SPCM. Foram preservadas; não houve inferência de vínculo simultâneo, erro ou correção.
 - Aproximações de 18 anos em tecnologia e 12 em desenvolvimento não foram recalculadas a partir do CV incompleto.
@@ -79,6 +108,8 @@ As datas acima registram o que as fontes indicam, sem inferir datas de execuçã
 - Escala atual de times, clusters, contas e usuários e métricas adicionais ainda dependem de evidência.
 - Conteúdo não localizado na Library não foi reconstruído como se fosse transcrição de voz.
 
+</details>
+
 <a id="proximo-passo"></a>
 
 ## Próximo passo
@@ -87,7 +118,8 @@ As datas acima registram o que as fontes indicam, sem inferir datas de execuçã
 
 <a id="regras-de-atualizacao"></a>
 
-## Regras de atualização
+<details>
+<summary><strong>Regras de atualização</strong></summary>
 
 1. README apresenta o projeto; Roadmap controla o estado; Perfil registra competências e trajetória; Projetos preserva os casos; Ideias mantém iniciativas/pendências; Histórico registra fontes e decisões.
 2. Para cada nova resposta, atualizar o arquivo temático, registrar decisões relevantes e somente então ajustar o status se houver fechamento.
@@ -96,9 +128,12 @@ As datas acima registram o que as fontes indicam, sem inferir datas de execuçã
 5. Separar fatos autorrelatados, hipótese de posicionamento, proposta futura e exemplo de avaliação.
 6. Atualizar este histórico quando uma evidência mais recente corrigir ou complementar uma afirmação.
 
+</details>
+
 <a id="fontes-de-referencia"></a>
 
-## Fontes de referência
+<details>
+<summary><strong>Fontes de referência</strong></summary>
 
 Identificadores F1–F5 são rótulos editoriais desta consolidação, não novos nomes atribuídos aos arquivos originais. Horários abaixo são UTC conforme metadados.
 
@@ -113,9 +148,12 @@ Identificadores F1–F5 são rótulos editoriais desta consolidação, não novo
 
 Os seis modelos e `profile_estrutura_6_arquivos.zip` estavam em `/Profile`, criados em 15/10/2026 entre 15:32 e 15:33 UTC. Continham a estrutura, sem preenchimento. O ZIP atualizado contém exatamente os seis Markdown, com links relativos navegáveis.
 
+</details>
+
 <a id="mapa-de-migracao-do-conteudo"></a>
 
-## Mapa de migração do conteúdo
+<details>
+<summary><strong>Mapa de migração do conteúdo</strong></summary>
 
 | Conteúdo das fontes | Destino principal |
 |---|---|
@@ -126,9 +164,12 @@ Os seis modelos e `profile_estrutura_6_arquivos.zip` estavam em `/Profile`, cria
 | F1 §28 e métricas do §38; contribuições iniciais F5 | Resultados do perfil e respectivos casos, sem repetir registros como novas entregas |
 | F3/F4, comparados com F1/F2; F5 como base inicial | Divergências reconciliadas e informações complementares incorporadas |
 
+</details>
+
 <a id="migracao-para-o-repositorio"></a>
 
-## 15/10/2026 — Migração para o repositório
+<details>
+<summary><strong>15/10/2026 — Migração para o repositório</strong></summary>
 
 **Origem da decisão:** instrução explícita do usuário nesta conversa: utilizar `/home/guilherme/repositorios/pessoal/guihmartins` como fonte da verdade, inclusive para o que for revisado e validado, com estrutura Markdown navegável e substituição do README anterior.
 
@@ -142,3 +183,12 @@ Os seis modelos e `profile_estrutura_6_arquivos.zip` estavam em `/Profile`, cria
 **Efeito sobre a revisão:** nenhum bloco foi reaberto ou concluído. Mantidos **6/10 — 60%** e **Networking / Multi-account** como próximo bloco. Esta migração não constitui nova validação das experiências ou métricas importadas.
 
 Nas próximas revisões, registrar aqui a data, o assunto, a origem da confirmação, os documentos afetados e a mudança de estado, quando houver. Novas confirmações devem atualizar também o documento temático e as pendências correspondentes.
+
+</details>
+
+
+---
+
+[← Pendências](IDEIAS-E-PENDENCIAS.md) · [Início](README.md) · [Perfil →](PERFIL-CONSOLIDADO.md)
+
+<sub>Base profissional · Atualizada em 15/10/2026 · Branch develop</sub>

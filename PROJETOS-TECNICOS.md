@@ -1,8 +1,12 @@
-# Projetos técnicos — Guilherme Martins
+[Início](README.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Revisão](ROADMAP.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
 
-[Início](README.md) · [Roadmap](ROADMAP.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
+---
 
-Atualizado em **15/10/2026**. Casos de trabalho preservados das fontes F1–F5, identificadas em [Histórico](HISTORICO.md#fontes-de-referencia). Resultados são autorrelatados. Quando a fonte não registra stack, data, métrica ou teste, essa ausência permanece explícita.
+<sub>02 / PROJETOS · GUILHERME MARTINS</sub>
+
+# Decisões técnicas na prática
+
+Casos que conectam engenharia de software, plataforma e operação. Cada resumo apresenta **problema, atuação e resultado**; os detalhes completos permanecem disponíveis em cada registro.
 
 <a id="indice-de-projetos"></a>
 
@@ -25,9 +29,24 @@ Atualizado em **15/10/2026**. Casos de trabalho preservados das fontes F1–F5, 
 
 Datas dos projetos não confirmadas não são deduzidas das datas das entrevistas. O caso de upload direto é um exemplo de avaliação, preservado em [Ideias e pendências](IDEIAS-E-PENDENCIAS.md#exemplo-de-avaliacao-arquitetural-upload-direto), sem ser contado como entrega.
 
+> **Leitura dos resultados:** métricas e experiências são autorrelatadas. O catálogo reúne casos, iniciativas e práticas recorrentes; os 12 registros não equivalem necessariamente a 12 entregas independentes.
+
+---
+
 <a id="p01--transformacao-do-processo-de-entrega"></a>
 
+<sub>ENTREGA DE SOFTWARE</sub>
+
 ## P01 — Transformação do processo de entrega
+
+**Problema.** Publicações manuais e espaçadas, com um processo extenso para chegar à produção.
+
+**Minha atuação.** Criei pipelines, organizei o fluxo de branches e revisão de código, documentei padrões e capacitei desenvolvedores.
+
+**Resultado.** A frequência passou de aproximadamente trimestral para semanal ou quinzenal. A evolução também trouxe rastreabilidade e menor intervenção manual.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 Um dos projetos de maior impacto relatados ocorreu quando a empresa ainda não possuía uma estrutura DevOps estabelecida.
 
@@ -94,9 +113,26 @@ Não há medição de change failure rate, lead time de toda a cadeia, MTTR ou t
 
 *Origem: F1 §10; F2 §36; F5 §4; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p02--padroes-de-infraestrutura-kubernetes"></a>
 
+<sub>PLATAFORMA KUBERNETES</sub>
+
 ## P02 — Padrões de infraestrutura Kubernetes
+
+**Problema.** Preparar a infraestrutura de novas aplicações exigia repetir configurações e procedimentos.
+
+**Minha atuação.** Estruturei componentes reutilizáveis de implantação e configuração, com documentação e evolução a partir do uso.
+
+**Resultado.** A preparação da infraestrutura passou de cerca de 4–5 para 1–2 dias, chegando a 1 dia em alguns casos. O tempo de desenvolvimento da aplicação não está incluído.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 <a id="contexto-e-implementacao"></a>
 
@@ -118,9 +154,26 @@ O ganho é de preparação/provisionamento da infraestrutura; quantidade de serv
 
 *Origem: F1 §§11 e 34; F2 §35; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p03--padrao-corporativo-lambda"></a>
 
+<sub>AWS LAMBDA</sub>
+
 ## P03 — Padrão corporativo Lambda
+
+**Problema.** Serviços precisavam de um padrão comum para configuração, permissões e entrega entre ambientes.
+
+**Minha atuação.** Defini o padrão com containers, configuração externa no Parameter Store, convenções de variáveis e isolamento por IAM.
+
+**Resultado.** Uma referência corporativa para construir e operar Lambdas. O relato não inclui uma métrica de redução de tempo ou custo.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 Foi identificado que diferentes desenvolvedores criavam Lambdas de formas distintas.
 
@@ -207,9 +260,26 @@ O registro inicial também inclui pipeline de build/deploy no padrão. Não há 
 
 *Origem: F1 §12; F5 §7; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p04--opentelemetry-e-rastreabilidade"></a>
 
+<sub>OBSERVABILIDADE</sub>
+
 ## P04 — OpenTelemetry e rastreabilidade
+
+**Problema.** O diagnóstico exigia conectar o comportamento das aplicações à telemetria da plataforma.
+
+**Minha atuação.** Construí a estrutura de OpenTelemetry no cluster, com documentação, exemplos para diferentes stacks e uso de Correlation ID.
+
+**Resultado.** Rastreabilidade entre serviços e melhoria qualitativa na investigação. Não há medição de redução de MTTR.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 Projeto relatado:
 
@@ -250,9 +320,26 @@ Instrumentação e investigação mais consistentes entre equipes, com ganho qua
 
 *Origem: F1 §§14–15; F5 §6; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p05--aro"></a>
 
+<sub>FERRAMENTA INTERNA · AWS</sub>
+
 ## P05 — ARO
+
+**Problema.** Promover recursos entre ambientes e contas exigia repetir e conferir configurações.
+
+**Minha atuação.** Desenvolvi o ARO para coletar configurações, apresentar um plano para revisão e recriar/promover os recursos após aprovação.
+
+**Resultado.** Um fluxo de promoção com revisão prévia. Stack, adoção, rollback e métricas ainda precisam de aprofundamento.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 Possui histórico de criação de ferramentas internas para eliminar tarefas repetitivas e reduzir erros.
 
@@ -291,9 +378,26 @@ Ferramenta própria: não atribuir a ela cobertura de todos os recursos AWS nem 
 
 *Origem: F1 §17; F5 §8; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p06--user-permissions"></a>
 
+<sub>FERRAMENTA INTERNA · SQL SERVER</sub>
+
 ## P06 — User Permissions
+
+**Problema.** A administração de permissões dependia de scripts pouco práticos, especialmente no uso por Linux e macOS.
+
+**Minha atuação.** Criei o portal User Permissions para gerenciar logins, usuários, roles e permissões.
+
+**Resultado.** Operações reunidas em uma interface: listar, criar, remover, conceder e revogar. Autenticação, auditoria e adoção aguardam detalhamento.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 Foi criada uma ferramenta/portal interno para gerenciamento de usuários e permissões do Microsoft SQL Server.
 
@@ -325,9 +429,26 @@ Não foram descritos stack da interface, modelo de autenticação, trilha de aud
 
 *Origem: F1 §18; F5 §8; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p07--comparador-de-parameter-store"></a>
 
+<sub>FERRAMENTA INTERNA · CONFIGURAÇÃO</sub>
+
 ## P07 — Comparador de Parameter Store
+
+**Problema.** Conferir dezenas ou mais de cem parâmetros entre DEV, HOMOLOG e PROD era trabalhoso.
+
+**Minha atuação.** Automatizei a comparação de configurações do Parameter Store entre os ambientes.
+
+**Resultado.** Identificação de diferenças de configuração. O relato confirma comparação; edição e sincronização automática não foram confirmadas.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 Foi criada uma ferramenta para comparar configurações do AWS Systems Manager Parameter Store entre ambientes.
 
@@ -350,9 +471,26 @@ O comportamento confirmado é comparar configurações. Não foi confirmada sinc
 
 *Origem: F1 §19; F5 §8; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p08--incidente-de-autenticacao-e-bloqueio-no-banco"></a>
 
+<sub>INCIDENTE · DIAGNÓSTICO E RECUPERAÇÃO</sub>
+
 ## P08 — Incidente de autenticação e bloqueio no banco
+
+**Problema.** Falhas de login/SSO exigiram investigação entre aplicação, Kubernetes e banco.
+
+**Minha atuação.** Correlacionei saúde dos pods, traces e locks, participei da mitigação e orientei ações para prevenir recorrência.
+
+**Resultado.** O login foi restabelecido. Há dois relatos relacionados de workers cuja relação permanece em aberto; os detalhes estão preservados sem contar dois incidentes.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 <a id="sintoma"></a>
 
@@ -448,9 +586,26 @@ O registro anterior chama o worker de extração de dados; o de 15/10 descreve i
 
 *Origem: F1 §§32 e 38; F2 §32; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p09--escala-de-banco-e-separacao-de-leituraescrita"></a>
 
+<sub>BANCO DE DADOS · CAPACIDADE</sub>
+
 ## P09 — Escala de banco e separação de leitura/escrita
+
+**Problema.** Carga elevada no banco principal afetava a resposta das aplicações.
+
+**Minha atuação.** Atuei no redimensionamento e propus a separação de leitura e escrita com réplica, em conjunto com as mudanças de aplicação.
+
+**Resultado.** O conjunto das mudanças reduziu a carga no principal em mais de 50% e o tempo de resposta em quase 50%, segundo o relato. Unidade, janela e latência absoluta não foram registradas.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 **Contexto:** banco com uma única instância demandou mais capacidade após uma funcionalidade de grande porte.
 
@@ -482,9 +637,26 @@ O relato confirma que não houve impacto percebido de atraso da réplica nesse p
 
 *Origem: F1 §38, relato de 15/10/2026; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p10--recuperacao-seletiva-apos-update"></a>
 
+<sub>BANCO DE DADOS · RECUPERAÇÃO</sub>
+
 ## P10 — Recuperação seletiva após UPDATE
+
+**Problema.** Um UPDATE indevido alterou o mesmo campo em múltiplos registros.
+
+**Minha atuação.** Restaurei um snapshot em instância isolada e usei uma tabela auxiliar para realizar uma correção filtrada por valor e horário de modificação.
+
+**Resultado.** Recuperação seletiva, evitando substituir a base inteira. A estratégia não permite garantir a preservação de toda alteração legítima posterior.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 **Problema:** UPDATE indevido afetou registros de usuários, atribuindo um mesmo valor incorreto a um campo. Documento/ID foi usado como exemplo no relato.
 
@@ -509,9 +681,26 @@ Usou snapshot, não PITR comprovado. Não há contagem de registros afetados, te
 
 *Origem: F1 §38, relato de 15/10/2026; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p11--upgrade-de-banco"></a>
 
+<sub>BANCO DE DADOS · EVOLUÇÃO</sub>
+
 ## P11 — Upgrade de banco
+
+**Problema.** Um upgrade precisava considerar compatibilidade, dependências e continuidade das aplicações.
+
+**Minha atuação.** Conduzi POC e validações em ambiente paralelo, planejei a migração com nova instância e troca de DNS e documentei backup e rollback.
+
+**Resultado.** Banco de mais de 100 GB atualizado sem problemas relatados, com parada de aproximadamente 2 horas. O retorno foi planejado; seu teste não foi confirmado.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 **Preparação:**
 
@@ -546,9 +735,26 @@ Não foram confirmadas as versões de origem/destino nem o engine exato deste up
 
 *Origem: F1 §38, relato de 15/10/2026; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="p12--upgrades-de-kuberneteseks"></a>
 
+<sub>KUBERNETES · OPERAÇÃO</sub>
+
 ## P12 — Upgrades de Kubernetes/EKS
+
+**Problema.** A evolução dos clusters exigia lidar com mudanças de versão e incompatibilidades.
+
+**Minha atuação.** Liderei estudo, documentação, testes, planejamento e execução de upgrades, com orientação de profissionais juniores.
+
+**Resultado.** Procedimento de substituição de cluster e possibilidade de retorno por DNS. O relato inclui problemas de NGINX/LB documentados e janelas de parada alinhadas com a gestão.
+
+<details>
+<summary>Ver relato completo, decisões e fontes</summary>
 
 - Liderou diversas atualizações de Kubernetes/EKS, sendo responsável pelo estudo, documentação, plano de execução e execução técnica.
 - Antes do upgrade, levanta mudanças de versão e breaking changes, documentando impactos e respectivas soluções.
@@ -566,9 +772,16 @@ Experiência em diversas atualizações e criação de playbook reutilizável, i
 
 *Origem: F2 §35; F4 §35; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 
+</details>
+
+[↑ Voltar ao catálogo](#indice-de-projetos)
+
+---
+
 <a id="formulacoes-factuais-para-futuro-curriculo"></a>
 
-## Formulações factuais para futuro currículo
+<details>
+<summary><strong>Formulações factuais para futuro currículo</strong></summary>
 
 - Investigou e mitigou bloqueios em RDS que afetavam autenticação, correlacionando métricas, consultas e rotinas de aplicação, com direcionamento e apoio à equipe de desenvolvimento na correção.
 - Propôs separação de leitura/escrita nas aplicações, combinada a redimensionamento do banco e réplica de leitura, com redução relatada de mais de 50% na carga da instância principal e de quase 50% no tempo de resposta.
@@ -577,8 +790,20 @@ Experiência em diversas atualizações e criação de playbook reutilizável, i
 
 Essas formulações preservam os limites do relato e ainda devem ser adaptadas ao currículo final. Origem: F1 §38.
 
+</details>
+
 <a id="modelo-para-novos-casos"></a>
 
-## Modelo para novos casos
+<details>
+<summary><strong>Modelo para novos casos</strong></summary>
 
 Para incorporar um novo caso, registrar contexto/problema, papel pessoal, arquitetura anterior, alternativas consideradas, decisão, implementação, validação, riscos/rollback e resultado. Campos sem evidência devem ser marcados como não informados. Distinguir execução própria, proposta, coordenação, resultado da equipe e exemplo hipotético.
+
+</details>
+
+
+---
+
+[← Perfil](PERFIL-CONSOLIDADO.md) · [Início](README.md) · [Roadmap da revisão →](ROADMAP.md)
+
+<sub>Base profissional · Atualizada em 15/10/2026 · Branch develop</sub>

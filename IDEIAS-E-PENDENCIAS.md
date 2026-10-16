@@ -1,8 +1,33 @@
-# Ideias e pendências
+[Início](README.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Revisão](ROADMAP.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
 
-[Início](README.md) · [Roadmap](ROADMAP.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
+---
 
-Atualizado em **15/10/2026**. Reúne iniciativas, decisões em aberto e limites que ainda precisam de aprofundamento. Acompanhamento dos blocos em [ROADMAP.md](ROADMAP.md); evidências em [PERFIL-CONSOLIDADO.md](PERFIL-CONSOLIDADO.md).
+<sub>04 / PENDÊNCIAS · GUILHERME MARTINS</sub>
+
+# O que falta aprofundar
+
+Um lugar para manter perguntas, iniciativas e decisões abertas sem misturá-las às experiências consolidadas.
+
+**Próxima prioridade:** [Networking / Multi-account](ROADMAP.md#6-networking--multi-account).<br>
+**Já decidido:** repositório `guihmartins` como fonte da verdade, trabalho na `develop` e posicionamento **Senior Cloud Platform Engineer**.
+
+[Lacunas de conteúdo](#pendencias-de-conteudo) · [Iniciativa de IA](#padroes-corporativos-para-ia-generativa) · [Portfólio](#portfolio-github--segundo-linkedin) · [Carreira](#posicionamento-profissional)
+
+<a id="pendencias-de-conteudo"></a>
+
+## Pendências de conteúdo
+
+| Tema | O que falta confirmar ou aprofundar | Onde acompanhar |
+|---|---|---|
+| Networking / Multi-account | Casos de VPC, subnets, CIDR, conectividade, isolamento e escopo pessoal | Roadmap 6 |
+| Liderança / documentação | Mais casos de mentoria/influência, adoção e processo de decisões; RFC/ADR só se confirmado | Roadmap 8 |
+| Ferramentas e IA | Arquitetura, stack, adoção, manutenção, métricas e estado real de implantação | Roadmap 9 |
+| Experiências anteriores | Projetos, Azure, impacto, datas sobrepostas e calibração de senioridade | Roadmap 10 |
+| Métricas | Escala, tráfego, custos, MTTR e adoção apenas quando existirem dados | Perfil / Projetos |
+| Incidente de autenticação | Relação entre o worker de extração e o de integração/recálculo | P08 / Histórico |
+| Bancos | Engine/versões/classes dos casos e unidade/janela das métricas, se recuperáveis | P09–P11 |
+
+As últimas duas linhas são limites documentais opcionais de enriquecimento; não reabrem automaticamente Bancos ou Observabilidade. Não exigir que o usuário produza métricas inexistentes.
 
 <a id="portfolio-github--segundo-linkedin"></a>
 
@@ -58,7 +83,8 @@ Origem: F1 §20; F5 §10.
 
 <a id="exemplo-de-avaliacao-arquitetural-upload-direto"></a>
 
-## Exemplo de avaliação arquitetural: upload direto
+<details>
+<summary><strong>Exemplo de raciocínio arquitetural · upload direto</strong></summary>
 
 - A proposta de fazer upload diretamente do front-end, sem atravessar cluster, Load Balancer ou API Gateway, pode representar **ganho de performance e economia**.
 - Entretanto, Guilherme **barraria** a solução se o arquivo ficasse acessível por URL pública a qualquer pessoa com o link, sem controle adequado de acesso (por exemplo, URL assinada) e sem proteção criptográfica apropriada.
@@ -68,6 +94,8 @@ Origem: F1 §20; F5 §10.
 **Classificação:** exemplo de avaliação e critério de aprovação/reprovação. Não é incidente comprovado nem projeto entregue. A referência a URL assinada preserva o exemplo citado; não estabelece, por si só, um desenho de segurança completo.
 
 Origem: F2 §39; F3 atualização de 13/10/2026. Critérios e autoridade estão no perfil.
+
+</details>
 
 <a id="posicionamento-profissional"></a>
 
@@ -81,24 +109,15 @@ Origem: F2 §39; F3 atualização de 13/10/2026. Critérios e autoridade estão 
 
 Origem: F1 §§23, 25–27; F2 §§1 e 27; F5 §§12 e 15. A atualização explícita de 13/10 prevalece sobre a antiga hipótese de título ainda indefinido.
 
-<a id="pendencias-de-conteudo"></a>
-
-## Pendências de conteúdo
-
-| Tema | O que falta confirmar ou aprofundar | Onde acompanhar |
-|---|---|---|
-| Networking / Multi-account | Casos de VPC, subnets, CIDR, conectividade, isolamento e escopo pessoal | Roadmap 6 |
-| Liderança / documentação | Mais casos de mentoria/influência, adoção e processo de decisões; RFC/ADR só se confirmado | Roadmap 8 |
-| Ferramentas e IA | Arquitetura, stack, adoção, manutenção, métricas e estado real de implantação | Roadmap 9 |
-| Experiências anteriores | Projetos, Azure, impacto, datas sobrepostas e calibração de senioridade | Roadmap 10 |
-| Métricas | Escala, tráfego, custos, MTTR e adoção apenas quando existirem dados | Perfil / Projetos |
-| Incidente de autenticação | Relação entre o worker de extração e o de integração/recálculo | P08 / Histórico |
-| Bancos | Engine/versões/classes dos casos e unidade/janela das métricas, se recuperáveis | P09–P11 |
-
-As últimas duas linhas são limites documentais opcionais de enriquecimento; não reabrem automaticamente Bancos ou Observabilidade. Não exigir que o usuário produza métricas inexistentes.
-
 <a id="proximas-decisoes"></a>
 
 ## Próximas decisões
 
-Continuar pelo bloco 6. Ao concluir o levantamento, decidir formato do currículo/LinkedIn, calibrar posicionamento com as evidências e escolher o escopo público do portfólio. Não há autorização de publicação externa implícita nesta consolidação.
+Continuar pelo bloco 6. Ao concluir o levantamento, decidir formato do currículo/LinkedIn, calibrar posicionamento com as evidências e escolher o escopo da apresentação pública final. O conteúdo de trabalho permanece versionado na `develop` deste repositório.
+
+
+---
+
+[← Roadmap](ROADMAP.md) · [Início](README.md) · [Histórico →](HISTORICO.md)
+
+<sub>Base profissional · Atualizada em 15/10/2026 · Branch develop</sub>
