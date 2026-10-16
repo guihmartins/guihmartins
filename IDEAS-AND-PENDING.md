@@ -31,6 +31,17 @@ A place for questions, initiatives and open decisions, separate from consolidate
 
 The last two rows are optional opportunities to enrich the records; they do not automatically reopen Databases or Observability. Do not require the user to produce metrics that do not exist.
 
+<a id="auditoria-library-pendencias"></a>
+
+## Library audit follow-up
+
+- **Conexia date conflict:** F6 lists Senior DevOps from February 2020; F7 lists June 2019, overlapping the earlier DevOps role. Keep February 2020–December 2024 until Guilherme confirms the transition date.
+- **Interview practice:** F8 is the Thaloz / HE SRE job description. Use it to prepare examples around hybrid .NET Core and WCF/SOAP systems, delivery with rollback, observability and Azure. Its requirements are interview prompts, not evidence of Guilherme's experience or certifications.
+- **Original still unread:** `Guilherme_Martins_English_Interview_Training.docx` could not be opened in the current Library viewer. Retain this file until it can be exported and compared; its contents have not been assumed or recovered.
+- **Preservation boundary:** this audit compared rendered professional content, not a complete binary backup of the Library. Retain original files until a separate backup is verified. The unrelated historical spreadsheet also could not be opened.
+
+The audit adds source detail without changing the **6/10** review status or the next topic.
+
 <a id="portfolio-github--segundo-linkedin"></a>
 
 ## GitHub portfolio — a second LinkedIn

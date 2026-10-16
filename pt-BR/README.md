@@ -71,6 +71,8 @@ As duas versões representam o mesmo conteúdo. As revisões podem continuar em 
 
 Foram reunidos cinco documentos de experiência, com as revisões de Kubernetes, CI/CD e Segurança, a governança de arquitetura de 13/10 e o fechamento de Bancos de 15/10. As [fontes e reconciliações](HISTORICO.md#fontes-de-referencia) permanecem identificadas. A consolidação cobre os registros localizados; não representa a recuperação integral de todas as conversas de voz.
 
+A [auditoria da Library](HISTORICO.md#auditoria-library-2026-10-15) acrescentou detalhes de experiências anteriores a partir de dois currículos e uma referência para entrevistas. O DOCX de treino de entrevistas continua sem leitura; preservar os originais até verificar uma cópia separada.
+
 As métricas mantêm seu escopo e suas aproximações. Importar, reorganizar ou traduzir relatos não equivale a validá-los novamente. A avaliação de Staff/Principal permanece em aberto.
 
 <a id="como-continuar"></a>

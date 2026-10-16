@@ -142,6 +142,8 @@ January 2019–June 2019
 
 .NET Core microservices; Docker Swarm; Jenkins; CentOS; ELK; SonarQube.
 
+Created and maintained .NET Core microservices on an on-premises Docker Swarm environment, with Jenkins build/deployment automation on CentOS. Sources F6–F7 add this delivery context to the technology list.
+
 <a id="beblue"></a>
 
 ### Beblue
@@ -165,6 +167,8 @@ March 2013–March 2017
 
 ASP.NET; MVC; .NET Framework; Web Services; REST APIs; Totvs integrations; Abacos; EMillennium; SOLR.
 
+Developed web and e-commerce portals using .NET Framework 4.5+, integrated them with ERPs including Totvs, Abacos (KPL) and EMillennium, and used SOLR for product search. Sources: F6–F7.
+
 <a id="siplancontrol-m--spcm"></a>
 
 ### SiplanControl-M — SPCM
@@ -173,6 +177,8 @@ ASP.NET; MVC; .NET Framework; Web Services; REST APIs; Totvs integrations; Abaco
 October 2011–March 2013
 
 ASP.NET; Windows Forms; WCF; Windows Services; exposure to Windows Azure.
+
+Developed software for notary offices, including ASP.NET/Windows Forms applications and backend services using WCF and Windows Services. The sources describe initial exposure to Windows Azure, without establishing current Azure depth. Sources: F6–F7.
 
 <a id="lms-desenvolvimento-de-sistemas"></a>
 
@@ -189,6 +195,8 @@ December 2010–December 2011
 August 2009–December 2010
 
 Windows Server; Linux RedHat; infrastructure; technical support.
+
+Maintained IT infrastructure and supported operating systems and local networks, with attention to network stability, security and service continuity. This historical account does not establish ownership of a broader corporate security program. Sources: F6–F7.
 
 *Source: F1 §23; job titles and dates preserved from the recorded CV. Source identities are in [History](HISTORY.md#fontes-de-referencia).*
 

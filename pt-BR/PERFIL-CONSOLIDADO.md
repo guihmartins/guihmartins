@@ -187,6 +187,8 @@ jan/2019 – jun/2019
 - ELK;
 - SonarQube.
 
+Criou e manteve microsserviços .NET Core em Docker Swarm on-premises, com automação de build/deploy via Jenkins em CentOS. As fontes F6–F7 acrescentam esse contexto de entrega à lista de tecnologias.
+
 <a id="beblue"></a>
 
 ### Beblue
@@ -232,6 +234,8 @@ mar/2013 – mar/2017
 - EMillennium;
 - SOLR.
 
+Desenvolveu portais web e de e-commerce com .NET Framework 4.5+, integrações com ERPs como Totvs, Abacos (KPL) e EMillennium e busca de produtos com SOLR. Fontes: F6–F7.
+
 <a id="siplancontrol-m--spcm"></a>
 
 ### SiplanControl-M — SPCM
@@ -244,6 +248,8 @@ out/2011 – mar/2013
 - WCF;
 - Windows Services;
 - contato com Windows Azure.
+
+Desenvolveu sistemas para cartórios, incluindo aplicações ASP.NET/Windows Forms e serviços de backend com WCF e Windows Services. As fontes descrevem contato inicial com Windows Azure, sem estabelecer profundidade atual na plataforma. Fontes: F6–F7.
 
 <a id="lms-desenvolvimento-de-sistemas"></a>
 
@@ -263,6 +269,8 @@ ago/2009 – dez/2010
 - Linux RedHat;
 - infraestrutura;
 - suporte técnico.
+
+Manteve infraestrutura de TI e prestou suporte a sistemas operacionais e redes locais, com foco em estabilidade, segurança da rede e continuidade dos serviços. Esse relato histórico não estabelece responsabilidade por um programa corporativo de segurança. Fontes: F6–F7.
 
 *Origem: F1 §23; cargos e datas preservados do CV registrado; identificação das fontes em [Histórico](HISTORICO.md#fontes-de-referencia).*
 

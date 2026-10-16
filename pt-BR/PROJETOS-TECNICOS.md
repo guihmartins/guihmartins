@@ -99,7 +99,7 @@ Além disso:
 - Code Review passou a fazer parte do processo;
 - tornou-se possível rastrear o estágio de uma tarefa através do fluxo integrado ao Jira.
 
-Esse padrão continua sendo utilizado.
+Esse padrão continua sendo utilizado. F5 §4 também relata redução de alterações diretas na branch principal. O registro de 23/09/2026 situa a implantação do fluxo organizacional aproximadamente seis anos antes; trata-se de uma lembrança relativa, não de um ano de execução confirmado.
 
 <a id="papel-e-implementacao-adicional"></a>
 

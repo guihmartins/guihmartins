@@ -76,7 +76,7 @@ Release frequency changed from approximately **one deployment every 3 months** t
 
 Builds stopped depending on developers' machines; manual intervention decreased; merge-related conflicts and problems decreased significantly; code review became part of the process; and task progress could be tracked through the Jira-integrated workflow.
 
-The standard is still in use in the recorded account.
+The standard is still in use in the recorded account. F5 §4 also reports fewer direct changes to the main branch. It dates the organization-wide workflow to approximately six years before the September 23, 2026 record; this is a relative recollection, not a confirmed implementation year.
 
 <a id="papel-e-implementacao-adicional"></a>
 

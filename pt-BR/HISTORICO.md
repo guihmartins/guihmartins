@@ -10,7 +10,36 @@
 
 Fontes, revisões e decisões que sustentam o perfil. Cada nova confirmação atualiza o documento temático e deixa aqui um registro de sua origem.
 
-[Última revisão](#estrutura-bilingue-2026-10-15) · [Linha do tempo](#registro-de-sessoes) · [Decisões](#decisoes-consolidadas) · [Fontes](#fontes-de-referencia)
+[Última revisão](#auditoria-library-2026-10-15) · [Linha do tempo](#registro-de-sessoes) · [Decisões](#decisoes-consolidadas) · [Fontes](#fontes-de-referencia)
+
+<a id="auditoria-library-2026-10-15"></a>
+
+## 15/10/2026 · Auditoria das fontes da Library
+
+**Pedido:** conferir individualmente os arquivos da Library/Space e recuperar material útil antes da exclusão dos originais pelo usuário.
+
+O navegador autenticado mostrou a Library legada, incluindo as pastas Profile e Reuniões Inglês. O inventário histórico contém **85 arquivos**. As cinco fontes profissionais em Markdown e os seis documentos derivados foram lidos; o texto renderizado dos seis derivados correspondeu ao ZIP importado após remover marcação explícita de âncoras e normalizar acentos, caixa e caracteres não alfanuméricos. Isso confere conteúdo normalizado, não identidade byte a byte.
+
+| Fonte / grupo | Resultado e destino |
+|---|---|
+| F1 | Estado atual de 6/10, casos de Bancos e limites das evidências já preservados |
+| F2 | Revisões detalhadas e governança arquitetural já preservadas |
+| F3 | Cópia na pasta comparada separadamente; governança preservada, posicionamento antigo superado por decisões explícitas |
+| F4 | Estado anterior de 4/10 preservado no histórico; não substitui 6/10 |
+| F5 | Fonte inicial comparada; P01 ganha redução de alterações diretas na principal e referência temporal relativa com ressalva |
+| Seis documentos `/Profile/*.md` | Conteúdo renderizado atual conferido com a base importada de seis arquivos |
+| ZIP importado | Importação local disponível; o binário atual da Library não foi baixado para comparação byte a byte |
+| F6 — CV em português, 2 páginas | Acrescenta contexto de entrega/domínio às experiências anteriores no Perfil |
+| F7 — CV do LinkedIn, 5 páginas | Complementa experiências anteriores; divergência no início como Senior DevOps registrada nas Pendências |
+| F8 — descrição HE SRE, 2 páginas | Referência de entrevista nas Pendências; requisitos não atribuídos a Guilherme |
+| DOCX de treino de entrevista em inglês | Visualizador não abriu; preservar original, conteúdo ainda pendente |
+| Demais arquivos | 65 imagens triadas visualmente; transcrição, listagem de pacote e acordo pessoal classificados sem relação com o perfil profissional. Planilha histórica indisponível. Inventário individual privado mantido localmente |
+
+**Detalhes recuperados:** entrega .NET Core/Docker Swarm on-premises na FH_; portais web/e-commerce, integrações com ERPs e busca de produtos SOLR na JET; sistemas para cartórios na SPCM; suporte à infraestrutura e redes locais na Artoni. São relatos das fontes, não novas confirmações do usuário.
+
+**Estado para exclusão:** sem liberação geral. O DOCX de entrevistas continua sem leitura, a planilha histórica está indisponível e a auditoria não constitui backup completo dos arquivos originais. Nenhum original foi apagado. Documentos pessoais, contatos e mídias sem relação com o perfil não foram copiados para o repositório.
+
+**Documentos afetados:** README, Perfil, Projetos, Pendências e Histórico nas duas línguas. **Revisão:** permanece **6/10 — 60%**; próximo tema Networking / Multi-account.
 
 <a id="estrutura-bilingue-2026-10-15"></a>
 
@@ -161,6 +190,9 @@ Identificadores F1–F5 são rótulos editoriais desta consolidação, não novo
 | F3 | `/Profile/experiencia_profissional_guilherme_atualizado_2026-10-05.md` | 50.937 bytes; modificado em 13/10/2026 às 20:05:33 UTC. Versão intermediária e complemento de arquitetura |
 | F4 | `/experiencia_profissional_guilherme_rascunho_2026-10-05.md` | 44.650 bytes; modificado em 05/10/2026 às 11:05:00 UTC. Fechamentos anteriores e estado intermediário |
 | F5 | `/experiencia_profissional_guilherme_martins.md` | 14.829 bytes; modificado em 23/09/2026 às 11:34:40 UTC. Base inicial do histórico, ferramentas e preferências |
+| F6 | `/CV_Guilherme_Martins_DevOps_PT.pdf` | Duas páginas lidas no visualizador da Library em 15/10/2026; contexto da carreira e início de Senior DevOps em fevereiro/2020 |
+| F7 | `/Reuniões Inglês/cv-linkedin.pdf` | Cinco páginas lidas em 15/10/2026; contexto das experiências, início divergente em junho/2019 mantido pendente |
+| F8 | `/JD - HE - SRE.pdf` | Duas páginas lidas em 15/10/2026; referência de entrevista Thaloz / HE SRE apenas |
 | C1 | Contexto de continuidade fornecido nesta conversa | Ideia previamente solicitada de um portfólio GitHub/“segundo LinkedIn” e existência de repositório de perfil apenas com README. Não é um arquivo encontrado na Library |
 
 Os seis modelos e `profile_estrutura_6_arquivos.zip` estavam em `/Profile`, criados em 15/10/2026 entre 15:32 e 15:33 UTC. Continham a estrutura, sem preenchimento. O ZIP atualizado na consolidação continha exatamente os seis Markdown, com links relativos navegáveis. Ele permanece como retrato da importação; o repositório bilíngue passou a ser a fonte de trabalho.

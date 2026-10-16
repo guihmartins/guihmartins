@@ -10,7 +10,36 @@
 
 Sources, reviews and decisions supporting the profile. Each new confirmation updates the relevant document and leaves a record of its origin here.
 
-[Latest update](#estrutura-bilingue-2026-10-15) · [Timeline](#registro-de-sessoes) · [Decisions](#decisoes-consolidadas) · [Sources](#fontes-de-referencia)
+[Latest update](#auditoria-library-2026-10-15) · [Timeline](#registro-de-sessoes) · [Decisions](#decisoes-consolidadas) · [Sources](#fontes-de-referencia)
+
+<a id="auditoria-library-2026-10-15"></a>
+
+## October 15, 2026 · Library source audit
+
+**Request:** inspect Library/Space files individually for useful material before the user deletes originals.
+
+The authenticated browser exposed the legacy Library, including the Profile and English-meetings folders. The historical inventory contains **85 files**. The five professional Markdown sources and six derived documents were read; rendered text from the six derived documents matched the imported ZIP after removing explicit anchor markup and normalizing accents, case and non-alphanumeric characters. This verifies normalized content, not byte-for-byte identity.
+
+| Source / group | Result and destination |
+|---|---|
+| F1 | Latest 6/10 status, Database cases and evidence limits already preserved |
+| F2 | Detailed reviews and architecture governance already preserved |
+| F3 | Folder copy compared separately; governance preserved, older positioning superseded by explicit decisions |
+| F4 | Earlier 4/10 state retained as history; does not replace 6/10 |
+| F5 | Initial career source compared; P01 gains fewer direct main-branch changes and its qualified relative timing |
+| Six `/Profile/*.md` documents | Current rendered content checked against the imported six-file baseline |
+| Imported ZIP | Local import exists; current Library ZIP binary was not downloaded for a byte comparison |
+| F6 — Portuguese CV, 2 pages | Adds delivery/domain context to earlier roles in Profile |
+| F7 — LinkedIn CV, 5 pages | Adds earlier-role context; records a conflicting Senior DevOps start date in Pending Items |
+| F8 — HE SRE job description, 2 pages | Interview reference in Pending Items; requirements are not attributed to Guilherme |
+| English interview training DOCX | Viewer could not open it; retain the original, content still pending |
+| Other files | 65 images visually triaged; transcript, package listing and personal agreement classified as unrelated to the professional profile. Historical spreadsheet unavailable. Individual private inventory kept locally |
+
+**Recovered detail:** on-premises .NET Core/Docker Swarm delivery at FH_; web/e-commerce portals, ERP integrations and SOLR product search at JET; notary-office software at SPCM; local infrastructure/network support at Artoni. These are source accounts, not new user confirmations.
+
+**Deletion status:** no blanket clearance. The interview DOCX remains unread, the historical spreadsheet is unavailable, and this is not a complete backup of original files. No originals were deleted. Personal documents, contacts and unrelated media were not copied into the repository.
+
+**Affected documents:** README, Profile, Technical Projects, Pending Items and History in both languages. **Review status:** remains **6/10 — 60%**; Networking / Multi-account next.
 
 <a id="estrutura-bilingue-2026-10-15"></a>
 
@@ -161,6 +190,9 @@ F1–F5 are editorial labels for this consolidation, not new names assigned to o
 | F3 | `/Profile/experiencia_profissional_guilherme_atualizado_2026-10-05.md` | 50,937 bytes; modified October 13, 2026 at 20:05:33 UTC. Intermediate version and architecture additions |
 | F4 | `/experiencia_profissional_guilherme_rascunho_2026-10-05.md` | 44,650 bytes; modified October 5, 2026 at 11:05:00 UTC. Earlier completions and intermediate state |
 | F5 | `/experiencia_profissional_guilherme_martins.md` | 14,829 bytes; modified September 23, 2026 at 11:34:40 UTC. Initial career history, tools and preferences |
+| F6 | `/CV_Guilherme_Martins_DevOps_PT.pdf` | Two pages read in the Library viewer on October 15, 2026; earlier career context and February 2020 Senior DevOps start |
+| F7 | `/Reuniões Inglês/cv-linkedin.pdf` | Five pages read on October 15, 2026; earlier-role context, conflicting June 2019 start kept pending |
+| F8 | `/JD - HE - SRE.pdf` | Two pages read on October 15, 2026; Thaloz / HE SRE interview reference only |
 | C1 | Continuity context supplied in this conversation | Previously requested GitHub portfolio/“second LinkedIn” idea and an existing profile repository containing only a README. Not a file found in the Library |
 
 The six templates and `profile_estrutura_6_arquivos.zip` were in `/Profile`, created on October 15, 2026 between 15:32 and 15:33 UTC. They initially contained the structure without content. The ZIP updated during consolidation contained exactly six Markdown files with navigable relative links. It remains an import snapshot; the bilingual repository has since become the working source.
