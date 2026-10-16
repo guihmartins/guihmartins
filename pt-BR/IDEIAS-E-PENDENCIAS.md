@@ -1,3 +1,5 @@
+[English](../IDEAS-AND-PENDING.md) | **Português (Brasil)**
+
 [Início](README.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Revisão](ROADMAP.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
 
 ---
@@ -9,7 +11,7 @@
 Um lugar para manter perguntas, iniciativas e decisões abertas sem misturá-las às experiências consolidadas.
 
 **Próxima prioridade:** [Networking / Multi-account](ROADMAP.md#6-networking--multi-account).<br>
-**Já decidido:** repositório `guihmartins` como fonte da verdade, trabalho na `develop` e posicionamento **Senior Cloud Platform Engineer**.
+**Já decidido:** repositório `guihmartins` como fonte da verdade, trabalho na `develop` e posicionamento **Senior Cloud Platform Engineer**. Inglês como padrão, com a versão completa em português em `pt-BR/`.
 
 [Lacunas de conteúdo](#pendencias-de-conteudo) · [Iniciativa de IA](#padroes-corporativos-para-ia-generativa) · [Portfólio](#portfolio-github--segundo-linkedin) · [Carreira](#posicionamento-profissional)
 
@@ -39,16 +41,18 @@ A ideia de organizar o levantamento em documentação Markdown navegável foi im
 
 A adoção do repositório como base de trabalho não conclui os blocos de revisão nem define o escopo de uma apresentação pública. O ZIP foi usado como origem da importação; os Markdown passam a ser os arquivos de trabalho.
 
+**Decisão de idioma:** inglês como padrão na raiz; os mesmos seis documentos em português brasileiro em `pt-BR/`. Cada página leva à versão equivalente, e alterações de conteúdo devem manter os dois idiomas alinhados.
+
 <a id="decisoes-ainda-abertas"></a>
 
 ### Decisões ainda abertas
 
-- Idioma(s), público e escopo da apresentação do portfólio.
+- Público e escopo da apresentação do portfólio.
 - Seleção dos casos e nível de detalhe a publicar.
-- Tratamento de informações internas, dados pessoais e identificação de empresas/sistemas antes de publicação.
+- Tratamento de informações internas, dados pessoais e identificação de empresas/sistemas antes da apresentação pública final.
 - Quando transformar os registros de trabalho em apresentação pública e currículo final.
 
-**Decisão resolvida:** utilizar o repositório de perfil existente como fonte da verdade. Origem: instrução explícita do usuário nesta conversa em 15/10/2026; registrada no [Histórico](HISTORICO.md#migracao-para-o-repositorio).
+**Decisões resolvidas:** utilizar o repositório de perfil existente como fonte da verdade e adotar inglês como padrão, com opção em português brasileiro. Origem: instruções explícitas do usuário nesta conversa em 15/10/2026, registradas no [Histórico](HISTORICO.md#estrutura-bilingue-2026-10-15).
 
 <a id="padroes-corporativos-para-ia-generativa"></a>
 

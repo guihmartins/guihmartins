@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Da aplicação à plataforma — Guilherme Martins</title>
-  <desc id="desc">Capa azul escura com tipografia clara e um diagrama abstrato ligando software, entrega e operação.</desc>
+  <title id="title">From application to platform — Guilherme Martins</title>
+  <desc id="desc">Dark blue cover with light typography and an abstract diagram connecting software, delivery and operations.</desc>
   <defs>
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#29424b" stroke-width=".65"/></pattern>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102830"/><stop offset="1" stop-color="#0a1922"/></linearGradient>
@@ -8,10 +8,10 @@
   <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
   <path d="M650 0H1182Q1200 0 1200 18V342Q1200 360 1182 360H650Z" fill="url(#grid)" opacity=".6"/>
   <rect x="54" y="48" width="32" height="4" rx="2" fill="#9edbc6"/>
-  <text x="54" y="88" fill="#9edbc6" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3">SOFTWARE / CLOUD / PLATAFORMA</text>
-  <text x="50" y="162" fill="#f4f1e9" font-family="Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">Da aplicação</text>
-  <text x="50" y="228" fill="#f4f1e9" font-family="Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">à plataforma.</text>
-  <text x="54" y="303" fill="#aec1c7" font-family="Arial, sans-serif" font-size="20">Arquitetura, automação e operação.</text>
+  <text x="54" y="88" fill="#9edbc6" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3">SOFTWARE / CLOUD / PLATFORM</text>
+  <text x="50" y="162" fill="#f4f1e9" font-family="Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">From application</text>
+  <text x="50" y="228" fill="#f4f1e9" font-family="Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">to platform.</text>
+  <text x="54" y="303" fill="#aec1c7" font-family="Arial, sans-serif" font-size="20">Architecture, automation and operations.</text>
   <g fill="none" stroke="#668d91" stroke-width="2">
     <path d="M767 110H887V180H1009M887 180V264H1047"/>
     <path d="M767 110V264H887" stroke-dasharray="5 7"/>
@@ -23,7 +23,7 @@
   </g>
   <circle cx="887" cy="180" r="10" fill="#9edbc6"/>
   <g fill="#e4eeeb" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
-    <text x="767" y="116">software</text><text x="1009" y="186">entrega</text><text x="1047" y="271">operação</text>
+    <text x="767" y="116">software</text><text x="1009" y="186">delivery</text><text x="1047" y="271">operations</text>
   </g>
-  <text x="715" y="323" fill="#668d91" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">UMA VISÃO PONTA A PONTA</text>
+  <text x="715" y="323" fill="#668d91" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">AN END-TO-END PERSPECTIVE</text>
 </svg>

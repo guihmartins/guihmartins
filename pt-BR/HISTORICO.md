@@ -1,3 +1,5 @@
+[English](../HISTORY.md) | **Português (Brasil)**
+
 [Início](README.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Revisão](ROADMAP.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
 
 ---
@@ -8,7 +10,21 @@
 
 Fontes, revisões e decisões que sustentam o perfil. Cada nova confirmação atualiza o documento temático e deixa aqui um registro de sua origem.
 
-[Última revisão](#revisao-editorial-2026-10-15) · [Linha do tempo](#registro-de-sessoes) · [Decisões](#decisoes-consolidadas) · [Fontes](#fontes-de-referencia)
+[Última revisão](#estrutura-bilingue-2026-10-15) · [Linha do tempo](#registro-de-sessoes) · [Decisões](#decisoes-consolidadas) · [Fontes](#fontes-de-referencia)
+
+<a id="estrutura-bilingue-2026-10-15"></a>
+
+## 15/10/2026 · Inglês padrão e opção em português brasileiro
+
+**Decisão do usuário:** quem acessar deve ver inglês primeiro e poder trocar para português brasileiro.
+
+- A raiz contém os seis documentos completos em inglês: README, Perfil, Projetos técnicos, Roadmap, Ideias/Pendências e Histórico.
+- Os documentos existentes em português foram preservados em `pt-BR/`, com navegação local e links para o documento equivalente em inglês.
+- Cada idioma tem sua própria capa. Os recursos compartilhados permanecem em `assets/`.
+- As duas versões representam o mesmo conteúdo profissional; novas confirmações devem ser refletidas nos dois idiomas no mesmo commit. As revisões podem continuar em português.
+- A escolha de idioma foi resolvida nas Pendências, e o `AGENTS.md` registra as regras de manutenção bilíngue.
+
+**Origem:** esclarecimento explícito do usuário nesta conversa. **Base da tradução:** commit `987cbe2`. **Documentos afetados:** os dois conjuntos de seis Markdown, `AGENTS.md` e as capas. **Estado da revisão:** mantidos **6/10 — 60%**, com Networking / Multi-account como próximo bloco. A tradução não introduz fatos, métricas, responsabilidades ou fechamentos adicionais.
 
 <a id="revisao-editorial-2026-10-15"></a>
 
@@ -55,6 +71,7 @@ As datas acima registram o que as fontes indicam, sem inferir datas de execuçã
 - Head é responsável principal por FinOps e política de backup; participação técnica de Guilherme é descrita sem ampliar sua responsabilidade.
 - Revisão atual: **6/10 — 60%**; próximos blocos 6, 8, 9 e 10. Não há novo bloco concluído apenas por reorganizar arquivos.
 - O projeto deve aproveitar o material existente e evitar repetição de perguntas respondidas.
+- Inglês é o idioma padrão de apresentação; português brasileiro permanece disponível nos documentos equivalentes em `pt-BR/`.
 
 <a id="reconciliacao-entre-versoes"></a>
 
@@ -124,9 +141,9 @@ As datas acima registram o que as fontes indicam, sem inferir datas de execuçã
 1. README apresenta o projeto; Roadmap controla o estado; Perfil registra competências e trajetória; Projetos preserva os casos; Ideias mantém iniciativas/pendências; Histórico registra fontes e decisões.
 2. Para cada nova resposta, atualizar o arquivo temático, registrar decisões relevantes e somente então ajustar o status se houver fechamento.
 3. Não repetir a entrevista inteira, transformar ausência em experiência ou ampliar resultado qualitativo para métrica quantitativa.
-4. Preservar as fontes originais; a partir da migração para o repositório, alterações ficam nos seis documentos Markdown e no histórico Git da branch `develop`. O ZIP é uma referência da importação e não precisa ser atualizado.
+4. Preservar as fontes originais; a partir da migração para o repositório, alterações ficam nos seis documentos Markdown por idioma e no histórico Git da branch `develop`. O ZIP é uma referência da importação e não precisa ser atualizado.
 5. Separar fatos autorrelatados, hipótese de posicionamento, proposta futura e exemplo de avaliação.
-6. Atualizar este histórico quando uma evidência mais recente corrigir ou complementar uma afirmação.
+6. Atualizar este histórico quando uma evidência mais recente corrigir ou complementar uma afirmação, mantendo os dois idiomas sincronizados.
 
 </details>
 
@@ -146,7 +163,7 @@ Identificadores F1–F5 são rótulos editoriais desta consolidação, não novo
 | F5 | `/experiencia_profissional_guilherme_martins.md` | 14.829 bytes; modificado em 23/09/2026 às 11:34:40 UTC. Base inicial do histórico, ferramentas e preferências |
 | C1 | Contexto de continuidade fornecido nesta conversa | Ideia previamente solicitada de um portfólio GitHub/“segundo LinkedIn” e existência de repositório de perfil apenas com README. Não é um arquivo encontrado na Library |
 
-Os seis modelos e `profile_estrutura_6_arquivos.zip` estavam em `/Profile`, criados em 15/10/2026 entre 15:32 e 15:33 UTC. Continham a estrutura, sem preenchimento. O ZIP atualizado contém exatamente os seis Markdown, com links relativos navegáveis.
+Os seis modelos e `profile_estrutura_6_arquivos.zip` estavam em `/Profile`, criados em 15/10/2026 entre 15:32 e 15:33 UTC. Continham a estrutura, sem preenchimento. O ZIP atualizado na consolidação continha exatamente os seis Markdown, com links relativos navegáveis. Ele permanece como retrato da importação; o repositório bilíngue passou a ser a fonte de trabalho.
 
 </details>
 

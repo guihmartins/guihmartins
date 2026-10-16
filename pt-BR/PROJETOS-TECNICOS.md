@@ -1,3 +1,5 @@
+[English](../TECHNICAL-PROJECTS.md) | **Português (Brasil)**
+
 [Início](README.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Revisão](ROADMAP.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
 
 ---

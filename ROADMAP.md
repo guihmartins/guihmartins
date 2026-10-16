@@ -1,253 +1,255 @@
-[Início](README.md) · [Perfil](PERFIL-CONSOLIDADO.md) · [Projetos](PROJETOS-TECNICOS.md) · [Revisão](ROADMAP.md) · [Pendências](IDEIAS-E-PENDENCIAS.md) · [Histórico](HISTORICO.md)
+**English** | [Português (Brasil)](pt-BR/ROADMAP.md)
+
+[Home](README.md) · [Profile](PROFILE.md) · [Projects](TECHNICAL-PROJECTS.md) · [Review](ROADMAP.md) · [Pending items](IDEAS-AND-PENDING.md) · [History](HISTORY.md)
 
 ---
 
-<sub>03 / REVISÃO · GUILHERME MARTINS</sub>
+<sub>03 / REVIEW · GUILHERME MARTINS</sub>
 
-# O que já está consolidado. O que vem agora.
+# What is consolidated. What comes next.
 
-**6 de 10 blocos concluídos · 60%**
+**6 of 10 topics completed · 60%**
 
-O levantamento já reúne AWS, Kubernetes, entrega, observabilidade, segurança e bancos. A próxima etapa é **Networking / Multi-account**, aproveitando as respostas existentes.
+The review already covers AWS, Kubernetes, delivery, observability, security and databases. The next topic is **Networking / Multi-account**, building on existing answers.
 
-Conclusão indica levantamento suficiente da experiência relatada. Novas informações podem complementar um assunto sem reiniciar a entrevista. Nenhum bloco está formalmente em andamento após o fechamento de Bancos em 15/10/2026.
+Completion means the reported experience has been explored sufficiently. New information can enrich a topic without restarting the interview. No topic is formally in progress following the completion of Databases on October 15, 2026.
 
-## Mapa da revisão
+## Review map
 
-| Bloco | Estado | Conteúdo |
+| Topic | Status | Coverage |
 | :--- | :--- | :--- |
-| [01 · AWS / Cloud Architecture / IaC](#1-aws--cloud-architecture--iac) | Concluído | Serviços, arquitetura e IaC |
-| [02 · Kubernetes / Containers](#2-kubernetes--containers) | Concluído | Planejamento, operação e upgrades |
-| [03 · CI/CD / Developer Experience](#3-cicd--developer-experience) | Concluído | Pipelines, padrões e adoção |
-| [04 · Observabilidade / SRE / Incidentes](#4-observabilidade--sre--incidentes) | Concluído | Telemetria, diagnóstico e incidentes |
-| [05 · Segurança / IAM / Governança](#5-seguranca--iam--governanca) | Concluído | Permissões, credenciais e controles |
-| [06 · Networking / Multi-account](#6-networking--multi-account) | **Próximo** | Conectividade, isolamento e escopo pessoal |
-| [07 · Bancos / Backup / DR](#7-bancos--backup--dr) | Concluído | Capacidade, recuperação e migração |
-| [08 · Liderança técnica / Arquitetura / Documentação](#8-lideranca-tecnica--arquitetura--documentacao) | Pendente | Influência, mentoria e decisões |
-| [09 · Ferramentas internas / IA / Automação](#9-ferramentas-internas--ia--automacao) | Pendente | Stack, adoção e resultados |
-| [10 · Experiências anteriores / Impacto / Posicionamento](#10-experiencias-anteriores--impacto--posicionamento) | Pendente | Casos anteriores e posicionamento |
+| [01 · AWS / Cloud Architecture / IaC](#1-aws--cloud-architecture--iac) | Completed | Services, architecture and IaC |
+| [02 · Kubernetes / Containers](#2-kubernetes--containers) | Completed | Planning, operations and upgrades |
+| [03 · CI/CD / Developer Experience](#3-cicd--developer-experience) | Completed | Pipelines, standards and adoption |
+| [04 · Observability / SRE / Incidents](#4-observabilidade--sre--incidentes) | Completed | Telemetry, troubleshooting and incidents |
+| [05 · Security / IAM / Governance](#5-seguranca--iam--governanca) | Completed | Permissions, credentials and controls |
+| [06 · Networking / Multi-account](#6-networking--multi-account) | **Next** | Connectivity, isolation and personal responsibilities |
+| [07 · Databases / Backup / DR](#7-bancos--backup--dr) | Completed | Capacity, recovery and migration |
+| [08 · Technical leadership / Architecture / Documentation](#8-lideranca-tecnica--arquitetura--documentacao) | Pending | Influence, mentoring and decisions |
+| [09 · Internal tools / AI / Automation](#9-ferramentas-internas--ia--automacao) | Pending | Architecture, technology, adoption and results |
+| [10 · Earlier experience / Impact / Positioning](#10-experiencias-anteriores--impacto--posicionamento) | Pending | Earlier cases and professional positioning |
 
 <a id="6-networking--multi-account"></a>
 
 ## 6. Networking / Multi-account
 
-**Pendente — próximo bloco.**
+**Pending — next topic.**
 
-Já existe material sobre Organizations/roles cross-account, contas por ambiente, Route 53, ACM, ALB/NLB, entrada de tráfego em Kubernetes e promoção AWS entre contas. Esses pontos devem ser reaproveitados, sem perguntar tudo novamente.
+Existing material covers Organizations/cross-account roles, accounts per environment, Route 53, ACM, ALB/NLB, Kubernetes ingress and resource promotion between AWS accounts. Reuse these answers instead of asking everything again.
 
-Lacunas a verificar, sem presumir experiência:
+Gaps to explore without assuming experience:
 
-- Casos concretos de VPC, subnets, CIDR e rotas; papel pessoal no desenho e operação.
-- Conectividade entre ambientes/contas e experiência prática com peering ou outras soluções, se houver.
-- Security groups e isolamento de tráfego; decisões e troubleshooting relevantes.
-- Alcance das contas administradas e limites de responsabilidade em Organizations/governança.
+- Concrete VPC, subnet, CIDR and routing cases; personal contribution to design and operations.
+- Connectivity between environments/accounts and practical experience with peering or other solutions, if any.
+- Security groups and traffic isolation; relevant decisions and troubleshooting.
+- Scope of the accounts administered and responsibility boundaries in Organizations/governance.
 
-Essas perguntas são pendências da revisão, não confirmação de uso das tecnologias. Fontes: F1 §§6, 17, 29–31 e 36.
+These are open review questions, not confirmed use of these technologies. Sources: F1 §§6, 17, 29–31 and 36.
 
-## Registro por bloco
+## Topic records
 
-Expanda os blocos concluídos para consultar o que já foi respondido. Os blocos ainda pendentes mostram o material disponível e o aprofundamento necessário.
+Expand completed topics to see what has already been answered. Pending topics show the material available and the remaining areas to explore.
 
 <a id="1-aws--cloud-architecture--iac"></a>
 
 <details>
-<summary><strong>1. AWS / Cloud Architecture / IaC · concluído</strong></summary>
+<summary><strong>1. AWS / Cloud Architecture / IaC · completed</strong></summary>
 
-**Concluído.**
+**Completed.**
 
-Já registrado:
+Already recorded:
 
-- Seleção de serviços com desenvolvimento, avaliação de complexidade, custo e necessidade real.
-- EC2, EKS/Kubernetes, Lambda, RDS, S3, API Gateway e serviços relacionados; não inventariar ambientes sem confirmação.
-- SQS Standard/FIFO, DLQ, retries, visibility timeout, retenção, consumidores, batch e deduplicação; SNS e EventBridge. Não usa Step Functions atualmente.
-- Route 53: hosted zones, records e necessidades de roteamento; ACM e certificados TLS.
-- ALB/NLB: listeners, targets, health checks, regras e certificados; parte automatizada por EKS/kOps.
-- S3/CloudFront: entrega de front-end, distributions/behaviors e invalidação em pipeline.
-- Secrets Manager e rotação de credenciais de RDS; configurações por Parameter Store.
-- Experiência anterior com Terraform, Terragrunt e CloudFormation, inclusive ambientes do zero; uso cotidiano atual limitado pelo contexto da empresa.
-- Participa das decisões de custo; Head é responsável principal por FinOps.
+- Service selection with development teams, considering complexity, cost and actual needs.
+- EC2, EKS/Kubernetes, Lambda, RDS, S3, API Gateway and related services; do not infer an environment inventory without confirmation.
+- SQS Standard/FIFO, DLQs, retries, visibility timeout, retention, consumers, batching and deduplication; SNS and EventBridge. Does not currently use Step Functions.
+- Route 53: hosted zones, records and routing needs; ACM and TLS certificates.
+- ALB/NLB: listeners, targets, health checks, rules and certificates; some provisioning automated through EKS/kOps.
+- S3/CloudFront: frontend delivery, distributions/behaviors and pipeline invalidation.
+- Secrets Manager and RDS credential rotation; configuration through Parameter Store.
+- Previous experience with Terraform, Terragrunt and CloudFormation, including environments built from scratch; current daily use limited by the company context.
+- Contributes to cost decisions; the Head has primary responsibility for FinOps.
 
-Detalhes em [Perfil consolidado](PERFIL-CONSOLIDADO.md); casos P03, P05 e P07. Fonte: F1 §§6–7 e 31.
+Details in the [Profile](PROFILE.md); cases P03, P05 and P07. Source: F1 §§6–7 and 31.
 
 </details>
 
 <a id="2-kubernetes--containers"></a>
 
 <details>
-<summary><strong>2. Kubernetes / Containers · concluído</strong></summary>
+<summary><strong>2. Kubernetes / Containers · completed</strong></summary>
 
-**Concluído em 05/10/2026.**
+**Completed on October 5, 2026.**
 
-Já registrado:
+Already recorded:
 
-- Docker, Kubernetes, EKS/kOps, Docker Swarm, Dockerfiles, Deployments, Services, ConfigMaps, Ingress e HPA.
-- Planejamento conforme produto: pods, serviços, persistência, entrada, nuvem, ambientes, namespaces/clusters e IaC.
-- Padrões reutilizáveis reduziram preparação da infraestrutura de ~4–5 para ~1–2 dias, podendo chegar a 1 dia.
-- Operação, capacidade de nodes, réplicas, CrashLoopBackOff, logs atuais/anteriores e investigação de fatores externos.
-- Requests/limits orientados por APM, carga, startup, consumo normal e picos.
-- Upgrades com estudo, documentação, validação prévia e estratégia de substituição de cluster; capacitação de juniores.
-- Uso de Operators prontos, incluindo Prometheus Operator; não desenvolveu Operators próprios/CRDs customizados.
-- HPA/Cluster Autoscaler ajustados por workload; redução noturna de capacidade quando aplicável. Sem uso de VPA relatado.
+- Docker, Kubernetes, EKS/kOps, Docker Swarm, Dockerfiles, Deployments, Services, ConfigMaps, Ingress and HPA.
+- Product-specific planning: pods, services, persistence, ingress, cloud, environments, namespaces/clusters and IaC.
+- Reusable standards reduced infrastructure preparation from ~4–5 to ~1–2 days, sometimes reaching 1 day.
+- Operations, node capacity, replicas, CrashLoopBackOff, current/previous logs and investigation of external factors.
+- Requests/limits informed by APM, load, startup, normal consumption and peaks.
+- Upgrades involving research, documentation, prior validation and cluster replacement; training junior engineers.
+- Uses existing Operators, including Prometheus Operator; has not developed custom Operators/CRDs.
+- HPA/Cluster Autoscaler tuned per workload; reduced overnight capacity where applicable. No reported use of VPA.
 
-Detalhes no perfil e casos P02/P12. Fontes: F1 §34; F2 §§34–35. Não reabrir perguntas encerradas.
+Details in the Profile and cases P02/P12. Sources: F1 §34; F2 §§34–35. Do not reopen answered questions.
 
 </details>
 
 <a id="3-cicd--developer-experience"></a>
 
 <details>
-<summary><strong>3. CI/CD / Developer Experience · concluído</strong></summary>
+<summary><strong>3. CI/CD / Developer Experience · completed</strong></summary>
 
-**Concluído em 05/10/2026.**
+**Completed on October 5, 2026.**
 
-Já registrado:
+Already recorded:
 
-- Bitbucket Pipelines como principal; GitHub Actions, Jenkins e Bitrise em outras experiências.
-- Implantação inicial de build/deploy automatizado, documentação e capacitação dos desenvolvedores.
-- Git Flow customizado, PR e Code Review, promoção de ambientes e rastreabilidade no Jira.
-- Externalização de configuração, convenções de variáveis e remoção de configurações hard-coded.
-- Reuso de scripts e posterior uso de shared pipelines/templates.
-- Controles incrementais de qualidade/segurança, Docker multi-stage, ECR e OIDC.
-- Diagnóstico conjunto de falhas de código, variáveis e pipelines antigas.
-- Deploy trimestral passou a semanal/quinzenal; sem série completa de métricas DORA.
+- Bitbucket Pipelines as the primary tool; GitHub Actions, Jenkins and Bitrise in other work.
+- Initial implementation of automated build/deploy, documentation and developer training.
+- Customized Git Flow, PRs and code review, environment promotion and Jira traceability.
+- External configuration, variable conventions and removal of hard-coded settings.
+- Script reuse, followed by shared pipelines/templates.
+- Incremental quality/security controls, multi-stage Docker builds, ECR and OIDC.
+- Joint diagnosis of code failures, missing variables and outdated pipelines.
+- Quarterly deployments became weekly or every two weeks; no complete DORA metrics series.
 
-Detalhes no perfil e P01/P03. Fontes: F1 §§9–10, 31 e 35; F2 §36.
+Details in the Profile and P01/P03. Sources: F1 §§9–10, 31 and 35; F2 §36.
 
 </details>
 
 <a id="4-observabilidade--sre--incidentes"></a>
 
 <details>
-<summary><strong>4. Observabilidade / SRE / Incidentes · concluído</strong></summary>
+<summary><strong>4. Observability / SRE / Incidents · completed</strong></summary>
 
-**Concluído.**
+**Completed.**
 
-Já registrado:
+Already recorded:
 
-- Datadog + OpenTelemetry como base principal; experiência também com Grafana, Graylog, Zabbix, Loki, ELK/EFK e New Relic.
-- Plataforma OpenTelemetry do zero, documentação e exemplos para Node.js, C#/.NET, Python, React Native e Angular.
-- Correlation ID, logs, métricas, APM, traces, alertas e instrumentação com os times.
-- CloudWatch focado principalmente em logs e alarmes pontuais.
-- Investigação ponta a ponta, atuação em P0, recuperação, comunicação técnica com gerentes e pós-mortem/RCA.
-- Caso de login/SSO afetado por locks: contexto de aplicação, banco e Kubernetes; evitar dupla contagem dos relatos relacionados.
+- Datadog + OpenTelemetry as the primary foundation; also experience with Grafana, Graylog, Zabbix, Loki, ELK/EFK and New Relic.
+- OpenTelemetry platform built from scratch, documentation and examples for Node.js, C#/.NET, Python, React Native and Angular.
+- Correlation ID, logs, metrics, APM, traces, alerts and instrumentation with teams.
+- CloudWatch mainly used for logs and selected alarms.
+- End-to-end investigation, P0 response, recovery, technical communication with managers and postmortem/RCA.
+- Login/SSO affected by locks: application, database and Kubernetes context; avoid double-counting related accounts.
 
-Detalhes no perfil e P04/P08. Fontes: F1 §§13–16, 31–32 e 38.
+Details in the Profile and P04/P08. Sources: F1 §§13–16, 31–32 and 38.
 
 </details>
 
 <a id="5-seguranca--iam--governanca"></a>
 
 <details>
-<summary><strong>5. Segurança / IAM / Governança · concluído</strong></summary>
+<summary><strong>5. Security / IAM / Governance · completed</strong></summary>
 
-**Concluído em 05/10/2026.**
+**Completed on October 5, 2026.**
 
-Já registrado:
+Already recorded:
 
-- Usuários, grupos, roles, policies, MFA e menor privilégio.
-- Modelagem de permissão conforme quem acessa e qual recurso/ação precisa usar; policies gerenciadas ou próprias conforme contexto.
-- Reuso de policies e agrupamento de permissões; remoção com checklist e validação do contexto.
-- OIDC nas pipelines, Secrets Manager e rotação de credenciais RDS.
-- Isolamento por ambiente e prefixo no Parameter Store; acesso cross-account por roles.
-- Requisitos de segurança na revisão arquitetural, sem atribuição de responsabilidade jurídica formal.
+- Users, groups, roles, policies, MFA and least privilege.
+- Permission design based on who needs access and which resource/action they need; managed or custom policies depending on context.
+- Reusable policies and grouped permissions; removal with a checklist and contextual validation.
+- OIDC in pipelines, Secrets Manager and RDS credential rotation.
+- Environment/prefix isolation in Parameter Store; cross-account access through roles.
+- Security requirements in architecture review, without attributing formal legal responsibility.
 
-Detalhes no perfil e P03. Fontes: F2 §37; F1 §§31 e 36.
+Details in the Profile and P03. Sources: F2 §37; F1 §§31 and 36.
 
 </details>
 
 <a id="7-bancos--backup--dr"></a>
 
 <details>
-<summary><strong>7. Bancos / Backup / DR · concluído</strong></summary>
+<summary><strong>7. Databases / Backup / DR · completed</strong></summary>
 
-**Concluído em 15/10/2026.** Foi o sexto bloco encerrado; sua numeração continua sendo 7.
+**Completed on October 15, 2026.** This was the sixth topic completed; its number remains 7.
 
-Já registrado:
+Already recorded:
 
-- Atuação em plataforma/cloud, sem ser DBA dedicado; criação de bancos/usuários, diagnóstico, capacidade, recuperação e upgrades.
-- CPU, memória, conexões, waits, locks, queries lentas e correlação com serviço/rotina; comparação de conexões com últimas ~12 horas.
-- Planos de execução e sugestões de query/índice de forma pontual, com validação e implementação pelo time responsável.
-- Mitigação de bloqueios afetando login, com avaliação de impacto antes de encerrar transação/conexão.
-- Redimensionamento e réplica de leitura com separação de acessos: >50% menos carga no principal e quase 50% menos tempo de resposta, como resultado conjunto.
-- Restore de snapshot em instância separada e correção seletiva após UPDATE indevido, com limites de preservação das alterações posteriores.
-- Upgrade de banco >100 GB, POC/Dev 2, dependências, nova instância, troca de DNS, backup e rollback documentado; parada ~2 horas e conclusão sem problemas.
-- Política de backup principalmente com o Head. Sem criação de Multi-AZ, failover confirmado, PITR comprovado ou rotina formal de testes periódicos de DR relatados.
+- Platform/cloud work rather than a dedicated DBA role; database/user creation, diagnosis, capacity, recovery and upgrades.
+- CPU, memory, connections, waits, locks, slow queries and correlation with services/jobs; comparison of connections against the previous ~12 hours.
+- Occasional execution plan analysis and query/index suggestions, validated and implemented by the responsible team.
+- Mitigation of locks affecting login, with impact assessment before terminating a transaction/connection.
+- Resizing and a read replica with separated access: >50% less load on the primary and almost 50% less response time, as a combined result.
+- Snapshot restore to a separate instance and selective correction after an incorrect UPDATE, with limitations on preserving later changes.
+- Upgrade of a database >100 GB, POC/Dev 2, dependencies, new instance, DNS cutover, backup and documented rollback; ~2 hours of downtime and completion without reported issues.
+- Backup policy primarily owned by the Head. No reported creation of Multi-AZ, confirmed failover execution, demonstrated PITR or formal schedule of periodic DR tests.
 
-Detalhes no perfil e P08–P11. Fonte principal: F1 §38, que atualiza o estado antigo de F2 §38.
+Details in the Profile and P08–P11. Main source: F1 §38, which updates the earlier status in F2 §38.
 
 </details>
 
 <a id="8-lideranca-tecnica--arquitetura--documentacao"></a>
 
-## 8. Liderança técnica / Arquitetura / Documentação
+## 8. Technical leadership / Architecture / Documentation
 
-**Pendente de revisão dedicada; material já coletado.**
+**Dedicated review pending; material already collected.**
 
-- Referência transversal, sem gestão formal de pessoas; padrões chegaram a ~4 times/~30 desenvolvedores no período citado.
-- Kickoffs, arquitetura, POCs/implementações de referência, documentação, orientação e acompanhamento da adesão.
-- Anteriormente definia arquiteturas diretamente; hoje revisa propostas dos desenvolvedores, solicita ajustes e pode impedir aprovação imediata.
-- Prioridade: custo/ROI, segurança, performance e observabilidade; riscos e trade-offs documentados.
-- Em divergências, gestão tem palavra final hierárquica; não atribuir autoridade executiva unilateral.
-- Orienta profissionais juniores e documenta procedimentos, inclusive upgrades.
+- Technical guidance across teams, without formal people management; standards reached ~4 teams/~30 developers in the period described.
+- Kickoffs, architecture, POCs/reference implementations, documentation, guidance and adoption follow-up.
+- Previously defined architectures directly; now reviews developers' proposals, requests changes and can withhold immediate approval.
+- Priorities: cost/ROI, security, performance and observability; documented risks and trade-offs.
+- Management has final hierarchical authority in disagreements; do not attribute unilateral executive authority.
+- Guides junior engineers and documents procedures, including upgrades.
 
-Ainda aprofundar: outros exemplos de influência/mentoria, processo e alcance da documentação/decisões, resultados de adoção. Não presumir uso formal de RFC/ADR somente por constar no escopo original.
+Still to explore: further examples of influence/mentoring, documentation/decision processes and reach, and adoption outcomes. Do not assume formal RFC/ADR use just because it appeared in the original scope.
 
-Fontes: F1 §§2–4, 21 e 37; F2 §§35–36 e 39. Ver perfil e exemplo em Ideias/Pendências.
+Sources: F1 §§2–4, 21 and 37; F2 §§35–36 and 39. See the Profile and the example in Ideas/Pending Items.
 
 <a id="9-ferramentas-internas--ia--automacao"></a>
 
-## 9. Ferramentas internas / IA / Automação
+## 9. Internal tools / AI / Automation
 
-**Pendente de aprofundamento.**
+**Further review pending.**
 
-- ARO, User Permissions e Comparador de Parameter Store já descritos, com casos P05–P07.
-- Responsabilidade atribuída para padrões corporativos de IA: harness, ferramentas, skills, repositórios, documentação, exemplos e adesão.
-- Preferência por automação e prevenção de problemas já registrada.
+- ARO, User Permissions and the Parameter Store Comparator are already described in cases P05–P07.
+- Assigned responsibility for corporate AI standards: harness, tools, skills, repositories, documentation, examples and adoption.
+- Preference for automation and preventing problems already recorded.
 
-Ainda aprofundar: arquitetura/stack das ferramentas, usuários e adoção, métricas, manutenção e limites; estado real de implantação da iniciativa de IA e resultados observáveis. Não tratar atribuição de responsabilidade como entrega concluída.
+Still to explore: tool architecture/stack, users and adoption, metrics, maintenance and limitations; actual implementation status of the AI initiative and observable results. Assigned responsibility must not be presented as a completed delivery.
 
-Fontes: F1 §§17–20; F5 §§8 e 10. Ver [Ideias e pendências](IDEIAS-E-PENDENCIAS.md).
+Sources: F1 §§17–20; F5 §§8 and 10. See [Ideas and pending items](IDEAS-AND-PENDING.md).
 
 <a id="10-experiencias-anteriores--impacto--posicionamento"></a>
 
-## 10. Experiências anteriores / Impacto / Posicionamento
+## 10. Earlier experience / Impact / Positioning
 
-**Pendente de revisão dedicada.**
+**Dedicated review pending.**
 
-- Histórico de Conexia, FH_, Beblue, JET, SiplanControl-M, LMS e Artoni preservado no perfil.
-- Base forte em C#/.NET e Node.js; experiências com Go, Python, Shell e Azure/Windows Azure.
-- Posicionamento **Senior Cloud Platform Engineer** definido em 13/10; cargo histórico preservado.
-- Preferência por IC técnico transversal, arquitetura, plataforma, ferramentas e prevenção; sem interesse atual em gestão formal.
-- Inglês: boa leitura, conversação limitada e desconforto com entrevistas; sem nível CEFR atribuído.
+- Career history at Conexia, FH_, Beblue, JET, SiplanControl-M, LMS and Artoni preserved in the Profile.
+- Strong foundation in C#/.NET and Node.js; experience with Go, Python, Shell and Azure/Windows Azure.
+- **Senior Cloud Platform Engineer** positioning chosen on October 13; historical job title preserved.
+- Preference for a technical IC role across teams, architecture, platform, tools and prevention; no current interest in formal management.
+- English: good reading comprehension, limited speaking and discomfort with interviews; no CEFR level assigned.
 
-Ainda aprofundar: projetos anteriores e impacto, escala e métricas disponíveis, experiências Azure e avaliação fundamentada de Senior/Staff/Principal. Datas sobrepostas do CV e durações aproximadas permanecem como registradas até confirmação.
+Still to explore: earlier projects and impact, scale and available metrics, Azure experience and an evidence-based Senior/Staff/Principal assessment. Overlapping CV dates and approximate durations remain as recorded until confirmed.
 
-Fontes: F1 §§1, 5–7 e 23–28; F2 §§1 e 27; F5 §§12–16.
+Sources: F1 §§1, 5–7 and 23–28; F2 §§1 and 27; F5 §§12–16.
 
 <a id="criterios-de-conclusao-e-regras-de-continuidade"></a>
 
 <details>
-<summary><strong>Critérios de conclusão e regras de continuidade</strong></summary>
+<summary><strong>Completion criteria and continuity rules</strong></summary>
 
-1. Consultar os seis arquivos antes de perguntar novamente.
-2. Rever apenas lacunas do bloco escolhido; experiência já respondida não é refeita.
-3. Separar execução própria, proposta, responsabilidade da equipe e exemplo hipotético.
-4. Preservar métricas aproximadas e limites; ausência de experiência também é resposta válida.
-5. Atualizar perfil/projetos, registrar decisões no histórico e salvar antes de avançar.
-6. Marcar conclusão somente quando houver registro de fechamento; não alterar o progresso por simples reorganização documental.
+1. Consult the six documents before asking again.
+2. Review only gaps in the chosen topic; do not repeat already answered experience questions.
+3. Separate personal execution, proposals, team responsibility and hypothetical examples.
+4. Preserve approximate metrics and limitations; lack of experience is also a valid answer.
+5. Update the Profile/Projects, record decisions in History and save before moving on, keeping both languages aligned.
+6. Mark a topic complete only when closure is recorded; document reorganization alone does not change progress.
 
 </details>
 
 <a id="proximo-passo"></a>
 
-## Próximo passo
+## Next step
 
-Retomar **Networking / Multi-account**, partindo das informações já existentes sobre contas, IAM, DNS, balanceadores e Kubernetes. Os blocos concluídos permanecem encerrados; novos relatos podem complementá-los sem reiniciar a entrevista.
+Resume **Networking / Multi-account**, building on existing information about accounts, IAM, DNS, load balancers and Kubernetes. Completed topics remain closed; new accounts can supplement them without restarting the interview.
 
-O roadmap de 10 blocos substitui a lista antiga de 36 pontos. Estado reconciliado a partir de F1 §§29, 30, 33 e 38 e dos aprofundamentos de F2, conforme o [Histórico](HISTORICO.md#reconciliacao-entre-versoes). A reorganização editorial não altera o progresso.
+The 10-topic roadmap replaces the old 36-point list. Status was reconciled from F1 §§29, 30, 33 and 38 and the detailed F2 reviews, as described in [History](HISTORY.md#reconciliacao-entre-versoes). Editorial reorganization and translation do not change progress.
 
 ---
 
-[← Projetos](PROJETOS-TECNICOS.md) · [Início](README.md) · [Ideias e pendências →](IDEIAS-E-PENDENCIAS.md)
+[← Projects](TECHNICAL-PROJECTS.md) · [Home](README.md) · [Ideas and pending items →](IDEAS-AND-PENDING.md)
 
-<sub>Base profissional · Atualizada em 15/10/2026 · Branch develop</sub>
+<sub>Professional knowledge base · Updated October 15, 2026 · Branch develop</sub>

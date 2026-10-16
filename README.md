@@ -1,95 +1,99 @@
-![Da aplicação à plataforma — software, cloud e plataforma](assets/profile-cover.svg)
+**English** | [Português (Brasil)](pt-BR/README.md)
+
+![From application to platform — software, cloud and platform engineering](assets/profile-cover.svg)
 
 # Guilherme Martins
 
 **Senior Cloud Platform Engineer**<br>
-Software engineering · AWS · Kubernetes · Developer Experience · Observabilidade
+Software engineering · AWS · Kubernetes · Developer Experience · Observability
 
-Minha trajetória conecta desenvolvimento de software, infraestrutura e operação. Com uma base forte em **C#/.NET e Node.js**, atuo na construção de plataformas, automações e padrões que ajudam os times a desenvolver, entregar e operar aplicações.
+My career connects software development, infrastructure and operations. With a strong foundation in **C#/.NET and Node.js**, I build platforms, automation and standards that help teams develop, deliver and operate applications.
 
-Na **Conexia Educação**, sou referência técnica transversal: participo de decisões de arquitetura, construo implementações de referência, documento soluções e apoio sua adoção. Gosto de entender o problema de ponta a ponta e criar mecanismos para prevenir sua recorrência.
+At **Conexia Educação**, I provide technical guidance across teams: I contribute to architecture decisions, build reference implementations, document solutions and support their adoption. I enjoy understanding problems end to end and building mechanisms that prevent them from recurring.
 
-[Conheça minha trajetória →](PERFIL-CONSOLIDADO.md) · [Explore os casos técnicos →](PROJETOS-TECNICOS.md)
+[Explore my background →](PROFILE.md) · [Read the technical cases →](TECHNICAL-PROJECTS.md)
 
 ---
 
-## Resultados em contexto
+## Results in context
 
-| Frente | Evolução relatada |
+| Area | Reported improvement |
 | :--- | :--- |
-| [**Entrega**](PROJETOS-TECNICOS.md#p01--transformacao-do-processo-de-entrega) | **Trimestral → semanal/quinzenal**<br>Frequência de deploy ampliada com pipelines, revisão de código e padrões de entrega. |
-| [**Kubernetes**](PROJETOS-TECNICOS.md#p02--padroes-de-infraestrutura-kubernetes) | **~4–5 dias → ~1–2 dias**<br>Tempo de preparação da infraestrutura reduzido com componentes reutilizáveis. |
-| [**Banco**](PROJETOS-TECNICOS.md#p09--escala-de-banco-e-separacao-de-leituraescrita) | **Mais de 50% menos carga**<br>Resultado conjunto de redimensionamento e separação dos acessos de leitura e escrita. |
+| [**Delivery**](TECHNICAL-PROJECTS.md#p01--transformacao-do-processo-de-entrega) | **Quarterly → weekly or every two weeks**<br>More frequent deployments through pipelines, code review and delivery standards. |
+| [**Kubernetes**](TECHNICAL-PROJECTS.md#p02--padroes-de-infraestrutura-kubernetes) | **~4–5 days → ~1–2 days**<br>Less time preparing infrastructure through reusable components. |
+| [**Database**](TECHNICAL-PROJECTS.md#p09--escala-de-banco-e-separacao-de-leituraescrita) | **More than 50% less load**<br>The combined result of resizing and separating read and write access. |
 
-<sub>Resultados relatados nas revisões. Escopo, aproximações e limites estão registrados em cada caso.</sub>
+<sub>Results reported during the experience review. Each case records its scope, approximations and limitations.</sub>
 
-## Como eu atuo
+## How I work
 
-**Arquitetura com contexto.** Avalio necessidade, custo, segurança, performance e capacidade de operação antes de escolher serviços ou aumentar a complexidade de uma solução.
+**Architecture grounded in context.** I assess the need, cost, security, performance and operational requirements before choosing services or adding complexity to a solution.
 
-**Plataformas que ajudam os times.** Transformo soluções recorrentes em padrões de Kubernetes, pipelines, configuração, observabilidade e ferramentas internas, com documentação e exemplos de uso.
+**Platforms that support teams.** I turn recurring solutions into Kubernetes, pipeline, configuration and observability standards, as well as internal tools, with documentation and examples.
 
-**Diagnóstico de ponta a ponta.** Conecto comportamento da aplicação, telemetria, infraestrutura e banco de dados para investigar falhas e orientar melhorias.
+**End-to-end troubleshooting.** I connect application behavior, telemetry, infrastructure and databases to investigate failures and guide improvements.
 
 <a id="navegacao"></a>
 
-## Explore a base
+## Explore the knowledge base
 
-| Documento | O que você encontra |
+| Document | What it covers |
 | :--- | :--- |
-| **[01 · Perfil profissional](PERFIL-CONSOLIDADO.md)** | Trajetória, competências, forma de trabalhar, formação e direção de carreira. |
-| **[02 · Projetos técnicos](PROJETOS-TECNICOS.md)** | 12 registros de casos e práticas: contexto, atuação, decisões, resultados e detalhes. |
-| **[03 · Roadmap da revisão](ROADMAP.md)** | O que já foi aprofundado e o ponto exato para continuar. |
-| **[04 · Ideias e pendências](IDEIAS-E-PENDENCIAS.md)** | Iniciativas, lacunas e decisões que ainda precisam de confirmação. |
-| **[05 · Histórico](HISTORICO.md)** | Fontes, revisões e decisões que sustentam o conteúdo. |
+| **[01 · Professional profile](PROFILE.md)** | Career history, capabilities, working approach, education and career direction. |
+| **[02 · Technical projects](TECHNICAL-PROJECTS.md)** | 12 case and practice records: context, contribution, decisions, results and details. |
+| **[03 · Review roadmap](ROADMAP.md)** | Topics already explored and the exact point for continuing the review. |
+| **[04 · Ideas and pending items](IDEAS-AND-PENDING.md)** | Initiatives, gaps and decisions that still need confirmation. |
+| **[05 · History](HISTORY.md)** | Sources, reviews and decisions supporting the content. |
 
-Este README é a entrada do conjunto de **seis documentos Markdown**.
+This README is the entry point to **six Markdown documents in each language**. English is the default at the repository root; the complete [Brazilian Portuguese version](pt-BR/README.md) is in `pt-BR/`.
 
 <a id="estado-da-revisao"></a>
 
-## Construção do perfil
+## Building the profile
 
-**6 de 10 blocos revisados · 60%**<br>
-Próxima conversa: **[Networking / Multi-account](ROADMAP.md#6-networking--multi-account)**.
+**6 of 10 topics reviewed · 60%**<br>
+Next conversation: **[Networking / Multi-account](ROADMAP.md#6-networking--multi-account)**.
 
-O perfil e os casos já estão preenchidos com o conteúdo consolidado. Os próximos aprofundamentos complementam esta base. O cargo histórico atual permanece **Senior Platform Engineer (SRE / DevOps)**; **Senior Cloud Platform Engineer** é o posicionamento profissional definido.
+The profile and cases already contain the consolidated material. Further reviews will build on this base. The recorded current job title remains **Senior Platform Engineer (SRE / DevOps)**; **Senior Cloud Platform Engineer** is the chosen professional positioning.
 
 <a id="fonte-da-verdade"></a>
 
 <details>
-<summary><strong>Como esta base é mantida</strong></summary>
+<summary><strong>How this knowledge base is maintained</strong></summary>
 
-Este repositório é a **fonte da verdade** do perfil profissional, incluindo revisões, validações e pendências. Currículo, LinkedIn e outros materiais serão derivados daqui. O trabalho é versionado na branch **develop** do repositório `guihmartins`, com cópia local em `/home/guilherme/repositorios/pessoal/guihmartins`.
+This repository is the **source of truth** for the professional profile, including reviews, confirmations and pending items. The résumé, LinkedIn profile and other materials will be derived from it. Work is versioned on the **develop** branch of `guihmartins`, with a local checkout at `/home/guilherme/repositorios/pessoal/guihmartins`.
+
+Both language versions represent the same content. Reviews can continue in Portuguese; confirmed changes must be reflected in both versions in the same commit. Each document links to its counterpart in the other language.
 
 <a id="o-que-esta-preservado"></a>
 
-### Conteúdo preservado
+### Preserved material
 
-Foram reunidos cinco documentos de experiência, com as revisões de Kubernetes, CI/CD e Segurança, a governança de arquitetura de 13/10 e o fechamento de Bancos de 15/10. As [fontes e reconciliações](HISTORICO.md#fontes-de-referencia) permanecem identificadas. A consolidação cobre os registros localizados; não representa a recuperação integral de todas as conversas de voz.
+Five experience documents were consolidated, including the Kubernetes, CI/CD and Security reviews, the October 13 architecture governance discussion and the October 15 completion of Databases. The [sources and reconciliations](HISTORY.md#fontes-de-referencia) remain identified. The consolidation covers the records that were located; it is not a complete recovery of every voice conversation.
 
-As métricas mantêm seu escopo e suas aproximações. Importar ou reorganizar relatos não equivale a validá-los novamente. A avaliação de Staff/Principal permanece em aberto.
+Metrics retain their scope and approximations. Importing, reorganizing or translating an account does not validate it again. Staff/Principal assessment remains open.
 
 <a id="como-continuar"></a>
 
-### Continuidade
+### Continuity
 
-Consultar o [Roadmap](ROADMAP.md) antes de retomar um tema. Aprofundar as lacunas de Networking / Multi-account, aproveitando o que já foi registrado.
+Consult the [Roadmap](ROADMAP.md) before resuming a topic. Explore the remaining Networking / Multi-account gaps, building on what is already recorded.
 
 <a id="fluxo-de-atualizacao"></a>
 
-### Fluxo de atualização
+### Update workflow
 
-1. Ler o conteúdo existente e identificar o ponto de revisão.
-2. Incorporar novas confirmações no Perfil ou nos Projetos, preservando os limites do relato.
-3. Registrar dúvidas e hipóteses em Pendências até a confirmação.
-4. Registrar data, assunto, origem da confirmação e documentos afetados no Histórico.
-5. Atualizar o progresso quando houver confirmação de avanço ou fechamento do bloco.
-6. Conferir links e versionar na `develop`; publicar no remoto quando solicitado.
+1. Read the existing content and identify the point of review.
+2. Incorporate new confirmations into the Profile or Projects, preserving the limits of the account in both languages.
+3. Record questions and hypotheses in Pending Items until confirmed.
+4. Record the date, topic, source of confirmation and affected documents in History.
+5. Update progress when advancement or completion of a topic is confirmed.
+6. Check links and language parity, commit to `develop`, and publish to the remote when requested.
 
-Conversas, Library e ZIPs são referências de origem. As alterações seguintes são mantidas nos Markdown. O ZIP da importação não precisa ser atualizado. As [instruções para agentes](AGENTS.md) orientam as próximas sessões.
+Conversations, Library files and ZIPs are source references. Subsequent changes are maintained in the Markdown documents. The imported ZIP does not need updating. The [agent instructions](AGENTS.md) guide future sessions.
 
 </details>
 
 ---
 
-<sub>Guilherme Martins · Base profissional em evolução · Atualizada em 15/10/2026</sub>
+<sub>Guilherme Martins · An evolving professional knowledge base · Updated October 15, 2026</sub>
