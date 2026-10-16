@@ -37,7 +37,7 @@ As últimas duas linhas são limites documentais opcionais de enriquecimento; n�
 
 - **Divergência na Conexia:** F6 informa Senior DevOps a partir de fevereiro/2020; F7 informa junho/2019, sobrepondo o cargo anterior de DevOps. Manter fevereiro/2020–dezembro/2024 até Guilherme confirmar a transição.
 - **Treino de entrevista:** F8 é a descrição da vaga Thaloz / HE SRE. Usá-la para preparar exemplos sobre sistemas híbridos .NET Core e WCF/SOAP, entrega com rollback, observabilidade e Azure. Os requisitos da vaga são perguntas de preparação, não evidências de experiência ou certificações de Guilherme.
-- **Original ainda não lido:** `Guilherme_Martins_English_Interview_Training.docx` não abriu no visualizador atual da Library. Preservar esse arquivo até conseguir exportá-lo e compará-lo; seu conteúdo não foi presumido nem recuperado.
+- **Fonte indisponível — acompanhamento encerrado:** em 15/10/2026, Guilherme informou que apagou `Guilherme_Martins_English_Interview_Training.docx` após o visualizador não conseguir abri-lo. Seu conteúdo não foi conferido nem recuperado. A leitura deixa de ser uma pendência para continuar o perfil; isso não comprova preservação integral do conteúdo do arquivo.
 - **Limite de preservação:** a auditoria comparou conteúdo profissional renderizado; não gerou backup binário integral da Library. Preservar os originais até verificar uma cópia separada. A planilha histórica sem relação com o perfil também não abriu.
 
 A auditoria acrescenta detalhes das fontes sem alterar o estado de revisão **6/10** ou o próximo tópico.

@@ -71,7 +71,7 @@ Both language versions represent the same content. Reviews can continue in Portu
 
 Five experience documents were consolidated, including the Kubernetes, CI/CD and Security reviews, the October 13 architecture governance discussion and the October 15 completion of Databases. The [sources and reconciliations](HISTORY.md#fontes-de-referencia) remain identified. The consolidation covers the records that were located; it is not a complete recovery of every voice conversation.
 
-The [Library audit](HISTORY.md#auditoria-library-2026-10-15) added earlier-career details from two CVs and an interview reference. The interview-training DOCX remains unread; retain original files until a separate backup is verified.
+The [Library audit](HISTORY.md#auditoria-library-2026-10-15) added earlier-career details from two CVs and an interview reference. The user reports that the interview-training DOCX was deleted before it could be read. Its contents are unverified; this does not block continuing the profile review.
 
 Metrics retain their scope and approximations. Importing, reorganizing or translating an account does not validate it again. Staff/Principal assessment remains open.
 

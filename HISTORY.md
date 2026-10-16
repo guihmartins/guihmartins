@@ -10,7 +10,17 @@
 
 Sources, reviews and decisions supporting the profile. Each new confirmation updates the relevant document and leaves a record of its origin here.
 
-[Latest update](#auditoria-library-2026-10-15) · [Timeline](#registro-de-sessoes) · [Decisions](#decisoes-consolidadas) · [Sources](#fontes-de-referencia)
+[Latest update](#entrevista-excluida-2026-10-15) · [Timeline](#registro-de-sessoes) · [Decisions](#decisoes-consolidadas) · [Sources](#fontes-de-referencia)
+
+<a id="entrevista-excluida-2026-10-15"></a>
+
+## October 15, 2026 · Interview source reported deleted
+
+**User confirmation:** Guilherme reported that he had already deleted the interview-training file discussed in the Library audit, `Guilherme_Martins_English_Interview_Training.docx`.
+
+The file had not been readable in the viewer, and its contents were not verified or recovered. The source-reading follow-up is closed as unavailable; it does not block continuing the profile review and does not establish full preservation of that file. The audit entry below records the earlier state, before this user confirmation. The remaining historical spreadsheet is not required for the professional profile.
+
+**Source:** the user's message in this conversation. **Affected documents:** README, Pending Items and History in both languages. **Review status:** still **6/10 — 60%**, with Networking / Multi-account next. No professional facts or career dates were changed.
 
 <a id="auditoria-library-2026-10-15"></a>
 

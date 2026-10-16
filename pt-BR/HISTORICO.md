@@ -10,7 +10,17 @@
 
 Fontes, revisões e decisões que sustentam o perfil. Cada nova confirmação atualiza o documento temático e deixa aqui um registro de sua origem.
 
-[Última revisão](#auditoria-library-2026-10-15) · [Linha do tempo](#registro-de-sessoes) · [Decisões](#decisoes-consolidadas) · [Fontes](#fontes-de-referencia)
+[Última revisão](#entrevista-excluida-2026-10-15) · [Linha do tempo](#registro-de-sessoes) · [Decisões](#decisoes-consolidadas) · [Fontes](#fontes-de-referencia)
+
+<a id="entrevista-excluida-2026-10-15"></a>
+
+## 15/10/2026 · Exclusão da fonte de entrevistas informada pelo usuário
+
+**Confirmação do usuário:** Guilherme informou que já havia apagado o arquivo de treino de entrevistas discutido na auditoria da Library, `Guilherme_Martins_English_Interview_Training.docx`.
+
+O arquivo não abriu no visualizador e seu conteúdo não foi conferido nem recuperado. O acompanhamento da leitura é encerrado por indisponibilidade; isso não impede continuar a revisão do perfil e não comprova preservação integral desse arquivo. A entrada de auditoria abaixo registra o estado anterior a esta confirmação do usuário. A planilha histórica restante não é necessária para o perfil profissional.
+
+**Origem:** mensagem do usuário nesta conversa. **Documentos afetados:** README, Pendências e Histórico nas duas línguas. **Revisão:** permanece **6/10 — 60%**, com Networking / Multi-account como próximo tema. Nenhum fato profissional ou data da carreira foi alterado.
 
 <a id="auditoria-library-2026-10-15"></a>
 
